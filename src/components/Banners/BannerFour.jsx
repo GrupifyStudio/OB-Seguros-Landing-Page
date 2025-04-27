@@ -31,8 +31,7 @@ export const BannerFour = () => {
                 Enjoy Life With Safety Insurance
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
-                Agilos helps you to convert your data into rategic asset emand
-                get top-notch business insights.
+              En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
               </p>
               <Link
                 to="/services"

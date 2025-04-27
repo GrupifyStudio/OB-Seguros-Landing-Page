@@ -24,12 +24,11 @@ export const HeaderTwo = () => {
                 <div className="header-top-left">
                   <ul className="list-wrap">
                     <li>
-                      <i className="flaticon-location"></i>256 Avenue, Mark
-                      Street, Newyork City
+                      <i className="flaticon-location"></i>San Gil, Colombia
                     </li>
                     <li>
                       <i className="flaticon-mail"></i>
-                      <a href="mailto:gerow@gmail.com">gerow@gmail.com</a>
+                      <a href="mailto:asesores@obseguros.com.co">asesores@obseguros.com.co</a>
                     </li>
                   </ul>
                 </div>
@@ -80,8 +79,11 @@ export const HeaderTwo = () => {
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link to="/">
-                        <img src={LOGO} alt="Logo" />
-                      </Link>
+                      <img 
+      src="/LogoObSeguros.png" 
+      alt="Logo de OB Seguros" 
+      style={{ width: 'auto', height: '180px' }} 
+    />                      </Link>
                     </div>
 
                     {/* nav links */}
@@ -94,8 +96,8 @@ export const HeaderTwo = () => {
                             <i className="flaticon-phone-call"></i>
                           </div>
                           <div className="content">
-                            <span>Hot Line Number</span>
-                            <a href="tel:0123456789">+123 8989 444</a>
+                            <span>Contacto</span>
+                            <a href="tel:311 811 1643">+57 311 811 1643</a>
                           </div>
                         </li>
                         <li className="header-search">

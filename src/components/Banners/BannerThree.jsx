@@ -39,8 +39,7 @@ export const BannerThree = () => {
                 Need Business Consultation Today
               </h2>
               <p data-aos="fade-right" data-aos-delay="300">
-                Agilos helps you to convert your data into a strategic asset and
-                get top-notch business insights.
+              En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
               </p>
               <form
                 action="#"
