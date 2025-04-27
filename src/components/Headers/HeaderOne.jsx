@@ -19,12 +19,11 @@ export const HeaderOne = () => {
               <div className="header-top-left">
                 <ul className="list-wrap">
                   <li>
-                    <i className="flaticon-location"></i>256 Avenue, Mark
-                    Street, Newyork City
+                    <i className="flaticon-location"></i>San Gil, Colombia
                   </li>
                   <li>
                     <i className="flaticon-mail"></i>
-                    <a href="mailto:gerow@gmail.com">gerow@gmail.com</a>
+                    <a href="mailto:asesores@obseguros.com.co">asesores@obseguros.com.co</a>
                   </li>
                 </ul>
               </div>
@@ -77,7 +76,7 @@ export const HeaderOne = () => {
                 <nav className="menu-nav">
                   <div className="logo">
                     <Link to="/">
-                      <img src={LOGO} alt="Logo" />
+                    <img src="/LogoObSeguros.png" alt="Logo" />
                     </Link>
                   </div>
 

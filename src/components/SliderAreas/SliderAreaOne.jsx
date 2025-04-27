@@ -29,7 +29,7 @@ export const SliderAreaOne = () => {
                         data-animation="fadeInUp"
                         data-delay=".2s"
                       >
-                        We Are Expert In This Field
+                        EXPERTOS EN PROTECCIÓN INTEGR
                       </span>
                       <h2
                         className="title"
@@ -39,8 +39,7 @@ export const SliderAreaOne = () => {
                         Grow Your Business More Efficiently
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Agilos helps you to convert your data into a strategic
-                        asset and get top-notch business insights.
+                      En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
                       </p>
                       <Link
                         to="/services"

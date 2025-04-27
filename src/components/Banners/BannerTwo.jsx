@@ -21,14 +21,13 @@ export const BannerTwo = () => {
                   data-aos="fade-up"
                   data-aos-delay="0"
                 >
-                  We Are Expert In This Field
+                 EXPERTOS EN PROTECCIÓN INTEGRAL
                 </span>
                 <h2 className="title" data-aos="fade-up" data-aos-delay="300">
-                  Get a Smart Way For Your Business
+                La Forma Inteligente de Proteger tu Vida y Patrimonio
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="500">
-                  Agilos helps you to convert your data into a strategic asset
-                  and get top-notch business insights.
+                En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
                 </p>
                 <div className="banner-btn">
                   <Link
