@@ -49,14 +49,7 @@ export const MobileMenu = () => {
               <img src={LOGO} alt="Logo" />
             </Link>
           </div>
-          <div className="mobile-search">
-            <form action="#">
-              <input type="text" placeholder="Search here..." />
-              <button>
-                <i className="flaticon-search"></i>
-              </button>
-            </form>
-          </div>
+  
           <div className="menu-outer">
             {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
           </div>
