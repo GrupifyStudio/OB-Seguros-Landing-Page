@@ -24,9 +24,17 @@ export const CtaAreaOne = () => {
             </div>
             <div className="col-lg-3">
               <div className="cta-btn text-end">
-                <Link to="/contact" className="btn">
-                  CONTÁCTANOS
-                </Link>
+              <div className="cta-btn text-end">
+  <a
+    href="https://wa.me/573118111643"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn"
+  >
+    CONTÁCTANOS
+  </a>
+</div>
+
               </div>
             </div>
           </div>
