@@ -3,23 +3,16 @@ import { TESTI_AVATAR01, TESTI_AVATAR02 } from "../lib/assets";
 export const TESTIMONIAL_LIST_TWO = [
   {
     id: 1,
-    text: "Morem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elita Florai Sum Dolor Sit Amet, Consecteture.Borem Ipsum Dolor Sit Amet, Consectetur.",
-    src: TESTI_AVATAR01,
-    title: "Mr.Robey Alexa",
-    designation: "CEO, Gerow Agency",
+    text: "Excelente asesoría, siempre atentos a nuestras necesidades y ofreciendo las mejores opciones para proteger nuestro negocio.\"",
+    // src: TESTI_AVATAR01,
+    title: "Carlos Martínez",
+    designation: "Gerente de Operaciones, Constructora ABC",
   },
   {
     id: 2,
-    text: "Morem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elita Florai Sum Dolor Sit Amet, Consecteture.Borem Ipsum Dolor Sit Amet, Consectetur.",
-    src: TESTI_AVATAR02,
-    title: "Mr.Robey Alexa",
-    designation: "CEO, Gerow Agency",
-  },
-  {
-    id: 3,
-    text: "Morem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elita Florai Sum Dolor Sit Amet, Consecteture.Borem Ipsum Dolor Sit Amet, Consectetur.",
-    src: TESTI_AVATAR01,
-    title: "Mr.Robey Alexa",
-    designation: "CEO, Gerow Agency",
+    text: "Con Omaira Barbosa encontramos confianza y soluciones a la medida para proteger a nuestra familia y patrimonio.\"",
+    // src: TESTI_AVATAR02,
+    title: "Laura Gómez",
+    designation: "Emprendedora",
   },
 ];

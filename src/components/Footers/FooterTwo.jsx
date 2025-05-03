@@ -13,15 +13,12 @@ export const FooterTwo = () => {
                 <div className="footer-widget">
                   <div className="fw-logo">
                     <Link to="/">
-                      <img src={LOGO} alt="" />
+                    <img src="/LogoObSeguros.png" alt="Logo" />
                     </Link>
                   </div>
 
                   <div className="footer-content">
-                    <p>
-                      When an unknown printer took a galley of type aawer awtnd
-                      scrambled it to make a type specimen book.
-                    </p>
+              
                     <div className="footer-info">
                       <ul className="list-wrap">
                         <li>
@@ -29,7 +26,7 @@ export const FooterTwo = () => {
                             <i className="flaticon-phone-call"></i>
                           </div>
                           <div className="content">
-                            <a href="tel:0123456789">+123 888 9999</a>
+                          <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
                           </div>
                         </li>
                         <li>
@@ -38,8 +35,7 @@ export const FooterTwo = () => {
                           </div>
                           <div className="content">
                             <p>
-                              Mon – Sat: 8 am – 5 pm, <br />
-                              Sunday: <span>CLOSED</span>
+                              Lunes – Viernes: 8 am – 5 pm, <br />
                             </p>
                           </div>
                         </li>
@@ -150,7 +146,7 @@ export const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="copyright-text-two text-center">
-                  <p>Copyright © gerow | All Right Reserved</p>
+                  <p>Copyright © OB Seguros | All Right Reserved</p>
                 </div>
               </div>
             </div>

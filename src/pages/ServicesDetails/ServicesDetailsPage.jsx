@@ -52,7 +52,7 @@ const ServicesDetailsPage = () => {
                     <ul className="list-wrap">
                       <li>
                         <img src={CHECK_ICON} alt="" />
-                        100% Better results
+                        100% Bettr results
                       </li>
                       <li>
                         <img src={CHECK_ICON} alt="" />

@@ -1,23 +1,22 @@
 import { RIGHT_ARROW } from "../lib/assets";
-
 export const FEATURE_TWO_LIST = [
   {
     id: 1,
-    icon: "flaticon-profit",
-    title: "Growing Business",
-    subtitle: "Finance helps you to convert into a strategic asset get.",
+    icon: "flaticon-family", // Puedes cambiar el ícono si tienes otro en mente
+    title: "Seguros para Personas",
+    subtitle: "Protección personalizada para ti y tu familia: vida, salud, educación, accidentes y pensión.",
   },
   {
     id: 2,
-    icon: "flaticon-investment",
-    title: "Finance Investment",
-    subtitle: "Finance helps you to convert into a strategic asset get.",
+    icon: "flaticon-investment", // Ícono sugerido, puedes ajustarlo según tu librería
+    title: "Seguros Empresariales",
+    subtitle: "Soluciones integrales que aseguran tu patrimonio, automóviles, responsabilidad civil e ingeniería.",
   },
   {
     id: 3,
-    icon: "flaticon-taxes",
-    title: "Tax Advisory",
-    subtitle: "Finance helps you to convert into a strategic asset get.",
+    icon: "flaticon-taxes", // Ícono sugerido
+    title: "Seguros de Cumplimiento",
+    subtitle: "Garantizamos el cumplimiento de tus obligaciones contractuales y legales con total seguridad.",
   },
 ];
 

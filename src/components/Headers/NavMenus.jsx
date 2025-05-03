@@ -105,52 +105,29 @@ export const NavMenus = () => {
     <div className="navbar-wrap main-menu d-none d-lg-flex">
       <ul className="navigation">
         {/* home */}
-        <li
-          className={cn("menu-item-has-children", {
-            active: homeLinkList.map((el) => el.to).includes(pathname),
-          })}
-        >
-          <a href="#">Home</a>
-          <ul className="sub-menu">
-            {homeLinkList.map((el) => (
-              <li key={el.to} className={cn(isActiveCn(el.to))}>
-                <Link to={el.to}>{el.title}</Link>
-              </li>
-            ))}
-          </ul>
+        <li className={cn(isActiveCn("/"))}>
+
+          <a href="#">Inicio</a>
         </li>
 
         {/* about */}
-        <li
-          className={cn("menu-item-has-children", {
-            active: aboutLinkList.map((el) => el.to).includes(pathname),
-          })}
-        >
-          <a href="#">About Us</a>
-          <ul className="sub-menu">
-            {aboutLinkList.map((el) => (
-              <li key={el.to} className={cn(isActiveCn(el.to))}>
-                <Link to={el.to}>{el.title}</Link>
-              </li>
-            ))}
-          </ul>
+        <li className={cn(isActiveCn("/"))}>
+
+          <a href="#">Nosotros</a>
         </li>
 
         {/* pages */}
         <li
           className={cn("menu-item-has-children", {
             active: [
-              ...servicesLinkList,
-              ...servicesDetailsLinkList,
-              "/project-details",
-              "/team-details",
-              "/error",
+              "/Seguros",
+            
             ]
               .map((el) => el.to)
               .includes(pathname),
           })}
         >
-          <a href="#">Pages</a>
+          <a href="#">Servicios</a>
           <ul className="sub-menu">
             <li
               className={cn("menu-item-has-children", {
@@ -202,20 +179,11 @@ export const NavMenus = () => {
             active: ["/blog", "/blog-details"].includes(pathname),
           })}
         >
-          <a href="#">Blog</a>
-          <ul className="sub-menu">
-            <li className={cn(isActiveCn("/blog"))}>
-              <Link to="/blog">Our Blog</Link>
-            </li>
-            <li className={cn(isActiveCn("/blog-details"))}>
-              <Link to="/blog-details">Blog Details</Link>
-            </li>
-          </ul>
         </li>
 
         {/* contact */}
         <li className={cn(isActiveCn("/contact"))}>
-          <Link to="/contact">contacts</Link>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
     </div>

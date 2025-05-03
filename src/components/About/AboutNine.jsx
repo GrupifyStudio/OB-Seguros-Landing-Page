@@ -31,7 +31,7 @@ export const AboutNine = () => {
           <div className="col-lg-5">
             <div className="about-content-four">
               <div className="section-title-two mb-30">
-                <span className="sub-title">Get To know US</span>
+                <span className="sub-title">G To know US</span>
                 <h2 className="title">
                   We are the next gen Business experience
                 </h2>

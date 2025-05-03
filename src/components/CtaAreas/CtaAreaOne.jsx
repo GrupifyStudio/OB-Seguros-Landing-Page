@@ -14,19 +14,18 @@ export const CtaAreaOne = () => {
                     <i className="flaticon-phone-call"></i>
                   </div>
                   <div className="content">
-                    <span>Call For More Info</span>
-                    <a href="tel:0123456789">+123 8989 444</a>
-                  </div>
+                    <span>Llama para más información:</span>
+                    <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
+                    </div>
                 </div>
                 <h2 className="title">
-                  Let’s Request a Schedule For Free Consultation
-                </h2>
+                Agenda una consulta gratuita con nuestro equipo de expertos.                </h2>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="cta-btn text-end">
                 <Link to="/contact" className="btn">
-                  Contact Us
+                  CONTÁCTANOS
                 </Link>
               </div>
             </div>

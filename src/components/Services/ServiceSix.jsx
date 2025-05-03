@@ -9,7 +9,7 @@ export const ServiceSix = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="section-title-two mb-60">
-              <span className="sub-title">What We Do For You</span>
+              <span className="sub-title">What Wooe Do For You</span>
               <h2 className="title">
                 We can inspire and Offer Different Services
               </h2>

@@ -11,10 +11,10 @@ import {
 
 export const AboutThree = () => {
   const list = [
-    "100% Better results",
-    "Suspe ndisse suscipit sagittis",
-    "Promis Specific TimelineI Guarantee",
-    "Review Credit Reports",
+   "Experiencia Comprobada",
+   "Asesoría Personalizada",
+   "Alianzas Estratégicas",
+  " Acompañamiento Continuo"
   ];
 
   return (
@@ -41,9 +41,9 @@ export const AboutThree = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  25 <span>Years</span>
+                  +15 <span>Años</span>
                 </h2>
-                <p>Of Experience in This Finance Advisory Company.</p>
+                <p>De experiencia brindando asesoría especializada en seguros en Colombia.</p>
               </div>
             </div>
           </div>
@@ -51,15 +51,13 @@ export const AboutThree = () => {
           <div className="col-lg-6">
             <div className="about-content-three">
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
-                <span className="sub-title">Get To know US</span>
+                <span className="sub-title">CONÓCENOS</span>
                 <h2 className="title tg-element-title">
-                  Innovative Business Solutions for Financial Company
-                </h2>
+                Soluciones Innovadoras y Confiables para tu Protección Integral                </h2>
               </div>
               <p className="info-one">
-                Morem ipsum dolor sit amet, consectetur adipiscing elita florai
-                psum dolor sit amet, consecteture.Borem ipsum dolor sit amet,
-                consectetur adipiscing elita florai psum.
+              En Omaira Barbosa Asesores de Seguros LTDA trabajamos con dedicación, compromiso y más de 15 años de experiencia, brindando soluciones integrales y adaptadas a las necesidades específicas de cada cliente, protegiendo así tu patrimonio, 
+              vida y futuro con máxima responsabilidad.
               </p>
 
               <div className="about-list-two">
@@ -72,34 +70,33 @@ export const AboutThree = () => {
                 </ul>
               </div>
               <p>
-                Morem ipsum dolor sit amet, consectetur adipiscing elita florai
-                psum dolor sit amet, consecteture.
+              Te apoyamos en cada etapa, especialmente en reclamaciones y prevención de riesgos.
               </p>
               <div className="about-author-info">
-                <div className="thumb">
+                {/* <div className="thumb">
                   <img src={ABOUT_AUTHOR} alt="" />
-                </div>
-                <div className="content">
+                </div> */}
+                {/* <div className="content">
                   <h2 className="title">Mark Stranger</h2>
                   <span>CEO, Gerow Finance</span>
-                </div>
-                <div className="signature">
+                </div> */}
+                {/* <div className="signature">
                   <img src={SIGNATURE} alt="" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="about-shape-wrap-two">
-        <img src={H2_ABOUT_SHAPE01} alt="" />
-        <img src={H2_ABOUT_SHAPE02} alt="" />
-        <img
+        {/* <img src={H2_ABOUT_SHAPE01} alt="" />
+        <img src={H2_ABOUT_SHAPE02} alt="" /> */}
+        {/* <img
           src={H2_ABOUT_SHAPE03}
           alt=""
           data-aos="fade-left"
           data-aos-delay="500"
-        />
+        /> */}
       </div>
     </section>
   );

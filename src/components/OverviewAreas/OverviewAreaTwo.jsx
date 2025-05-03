@@ -33,7 +33,7 @@ export const OverviewAreaTwo = () => {
             <div className="overview-content-two">
               <div className="section-title-two mb-30 tg-heading-subheading animation-style1">
                 <span className="sub-title tg-element-title">
-                  Company Overview
+                QUIÉNES SOMOS
                 </span>
                 <h2 className="title tg-element-title">
                   We Prepare An Effective Strategy For Companies

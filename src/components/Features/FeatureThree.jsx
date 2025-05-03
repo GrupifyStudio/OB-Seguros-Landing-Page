@@ -10,11 +10,11 @@ export const FeatureThree = () => {
           <div className="col-xl-6 col-lg-7">
             <div className="section-title-two text-center mb-40 tg-heading-subheading animation-style1">
               <span className="sub-title tg-element-title">
-                What We Do For You
-              </span>
+              LO QUE HACEMOS POR TI
+                            </span>
               <h2 className="title tg-element-title">
-                The features that make our Service unique
-              </h2>
+              Ofrecemos Diferentes Servicios para Protegerte Mejor         
+                   </h2>
             </div>
           </div>
         </div>

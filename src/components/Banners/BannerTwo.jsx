@@ -36,15 +36,9 @@ export const BannerTwo = () => {
                     data-aos="fade-right"
                     data-aos-delay="700"
                   >
-                    Our Services
+                    Nuestros Seguros
                   </Link>
 
-                  <VideoPlayerOne
-                    src="https://www.youtube.com/embed/XMWYZ-uZjnQ"
-                    text="Watch The Video"
-                    data-aos="fade-left"
-                    data-aos-delay="700"
-                  />
                 </div>
               </div>
             </div>

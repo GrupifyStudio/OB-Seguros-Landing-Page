@@ -73,6 +73,12 @@ import brand_img02 from "../assets/img/brand/brand_img02.png";
 import brand_img03 from "../assets/img/brand/brand_img03.png";
 import brand_img04 from "../assets/img/brand/brand_img04.png";
 import brand_img05 from "../assets/img/brand/brand_img05.png";
+import brand_img06 from "../assets/img/brand/brand_img06.png";
+import brand_img07 from "../assets/img/brand/brand_img07.png";
+import brand_img08 from "../assets/img/brand/brand_img08.png";
+import brand_img09 from "../assets/img/brand/brand_img09.png";
+import brand_img10 from "../assets/img/brand/brand_img10.png";
+
 import services_item_shape from "../assets/img/services/services_item_shape.png";
 import h2_services_img01 from "../assets/img/services/h2_services_img01.jpg";
 import h2_services_img02 from "../assets/img/services/h2_services_img02.jpg";
@@ -329,6 +335,11 @@ export const BRAND_IMG02 = brand_img02;
 export const BRAND_IMG03 = brand_img03;
 export const BRAND_IMG04 = brand_img04;
 export const BRAND_IMG05 = brand_img05;
+export const BRAND_IMG06 = brand_img06;
+export const BRAND_IMG07 = brand_img07;
+export const BRAND_IMG08 = brand_img08;
+export const BRAND_IMG09 = brand_img09;
+export const BRAND_IMG10 = brand_img10;
 
 // services
 export const SERVICES_ITEM_SHAPE = services_item_shape;

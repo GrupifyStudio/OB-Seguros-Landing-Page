@@ -20,7 +20,7 @@ export const AboutEight = () => {
           <div className="col-lg-6">
             <div className="about-content-eight">
               <div className="section-title-two mb-30">
-                <span className="sub-title">Get To Know More</span>
+                <span className="sub-title">Gt To Know More</span>
                 <h2 className="title">
                   We Have More Than 20+ Years Of Practical Finance Industries
                 </h2>
