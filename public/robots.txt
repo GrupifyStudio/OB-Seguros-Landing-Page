@@ -1,3 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt para indexación completa
 User-agent: *
-Disallow:
+Allow: /
