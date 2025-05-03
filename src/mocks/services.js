@@ -18,37 +18,37 @@ export const SERVICES_TWO_LIST = [
     id: 1,
     src: H2_SERVICES_IMG01,
     srcShape: SERVICES_ITEM_SHAPE,
-    icon: "flaticon-piggy-bank",
+    icon: "flaticon-life-insurance", // Asegúrate de tener este ícono o uno similar
     href: "/services-details",
-    title: "Finance Planning",
-    subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
+    title: "Seguros de Vida",
+    subtitle: "🔒 Protección para ti y tus seres queridos.",
   },
   {
     id: 2,
     src: H2_SERVICES_IMG02,
     srcShape: SERVICES_ITEM_SHAPE,
-    icon: "flaticon-calculator",
+    icon: "flaticon-house", // Ícono sugerido para hogar
     href: "/services-details",
-    title: "Tax File Audit",
-    subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
+    title: "Seguros para Hogar",
+    subtitle: "🏡 Cuidamos tu patrimonio y tranquilidad.",
   },
   {
     id: 3,
     src: H2_SERVICES_IMG03,
     srcShape: SERVICES_ITEM_SHAPE,
-    icon: "flaticon-money",
+    icon: "flaticon-car-insurance", // Ícono sugerido para vehículos
     href: "/services-details",
-    title: "Investment Idea",
-    subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
+    title: "Seguros para Vehículos",
+    subtitle: "🚗 Conduce seguro en todo momento.",
   },
   {
     id: 4,
     src: H2_SERVICES_IMG04,
     srcShape: SERVICES_ITEM_SHAPE,
-    icon: "flaticon-layers",
+    icon: "flaticon-company", // Ícono sugerido para empresas
     href: "/services-details",
-    title: "Risk Management",
-    subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
+    title: "Seguros Empresariales",
+    subtitle: "🏢 Protección integral para tu empresa.",
   },
 ];
 

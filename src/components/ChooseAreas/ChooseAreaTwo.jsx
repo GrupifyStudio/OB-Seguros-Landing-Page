@@ -38,7 +38,7 @@ export const ChooseAreaTwo = () => {
                   Why Choose Us
                 </span>
                 <h2 className="title tg-element-title">
-                  We’ll Ensure You Always Get the Best Guidance.
+                  We’ll Ensurpppe You Always Get the Best Guidance.
                 </h2>
               </div>
               <p>

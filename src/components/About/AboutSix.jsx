@@ -39,7 +39,7 @@ export const AboutSix = () => {
               <div className="about-list">
                 <ul className="list-wrap">
                   <li>
-                    <i className="fas fa-arrow-right"></i>100% Better results
+                    <i className="fas fa-arrow-right"></i>100% Betooter results
                   </li>
                   <li>
                     <i className="fas fa-arrow-right"></i>promis timelineI

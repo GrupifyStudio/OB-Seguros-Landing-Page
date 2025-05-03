@@ -29,19 +29,20 @@ export const OverviewAreaOne = () => {
           <div className="col-lg-6">
             <div className="overview-content">
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
-                <span className="sub-title">Company Overview</span>
+                <span className="sub-title">Quiene Somos</span>
                 <h2 className="title tg-element-title">
-                  Plan your business strategy with Our Experts
-                </h2>
+                Diseñamos la mejor estrategia de protección para ti y tu empresa
+                                </h2>
               </div>
               <p className="info-one">
-                Morem ipsum dolor sit amet, consectetur adipiscing elita florai
-                psum dolor sit amet, consecteture.Borem ipsum dolor sit amet,
-                consectetur adipiscing elita florai psum.
+              En Omaira Barbosa Asesores de Seguros LTDA contamos con más de 
+              15 años de experiencia asesorando a personas, familias y empresas. 
+              Trabajamos de la mano contigo para ofrecer soluciones de protección 
+              integral, respaldadas por las principales aseguradoras del país.
               </p>
+            
               <p className="info-two">
-                Morem ipsum dolor sit amet, consectetur adipiscing elita florai
-                psum dolor sit amet, consecteture.Borem.
+               
               </p>
               <div className="content-bottom">
                 <ul className="list-wrap">
@@ -51,9 +52,9 @@ export const OverviewAreaOne = () => {
                     </div>
                     <div className="content">
                       <h2 className="count">
-                        <Odometer end={235} />+
+                        <Odometer end={23} />+
                       </h2>
-                      <p>Best Award</p>
+                      <p>Empresas Protegidas</p>
                     </div>
                   </li>
                   <li>
@@ -62,9 +63,9 @@ export const OverviewAreaOne = () => {
                     </div>
                     <div className="content">
                       <h2 className="count">
-                        <Odometer end={98} />k
+                        <Odometer end={500} />
                       </h2>
-                      <p>Happy Clients</p>
+                      <p>Clientes Satisfechos</p>
                     </div>
                   </li>
                 </ul>

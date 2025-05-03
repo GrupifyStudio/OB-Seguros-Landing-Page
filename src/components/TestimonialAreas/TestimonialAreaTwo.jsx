@@ -57,10 +57,9 @@ export const TestimonialAreaTwo = () => {
         <div className="row justify-content-center">
           <div className="col-lg-7">
             <div className="section-title-two white-title text-center mb-50 tg-heading-subheading animation-style3">
-              <span className="sub-title">Our Testimonials</span>
+              <span className="sub-title"> NUESTROS CLIENTES OPINAN</span>
               <h2 className="title tg-element-title">
-                What Customers Say’s About Our Gerow Services
-              </h2>
+              ¿Qué dicen nuestros clientes sobre Omaira Barbosa Asesores de Seguros?              </h2>
             </div>
           </div>
         </div>

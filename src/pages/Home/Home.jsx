@@ -35,29 +35,29 @@ const Home = () => {
       {/* overview-area */}
       <OverviewAreaOne />
 
-      {/* choose-area */}
-      <ChooseAreaOne />
+      {/* choose-area
+      <ChooseAreaOne /> */}
 
       {/* project-area */}
-      <ProjectAreaTwo />
+      {/* <ProjectAreaTwo /> */}
 
       {/* cta-area */}
       <CtaAreaOne />
 
       {/* team area */}
-      <TeamAreaTwo />
+      {/* <TeamAreaTwo /> */}
 
       {/* testimonial-area */}
       <TestimonialAreaTwo />
 
       {/* pricing-area */}
-      <PricingAreaTwo />
+      {/* <PricingAreaTwo /> */}
 
       {/* blog-area */}
-      <BlogAreaTwo />
+      {/* <BlogAreaTwo /> */}
 
       {/* request-area  */}
-      <RequestAreaTwo />
+      {/* <RequestAreaTwo /> */}
     </Layout>
   );
 };

@@ -44,7 +44,7 @@ const ServicesDetailsPageTwo = () => {
                         <div className="content">
                           <h5 className="title">Growing Business</h5>
                           <p>
-                            Finance helps you to convert into a strategic asset
+                            Fina helps you to convert into a strategic asset
                             get.
                           </p>
                         </div>

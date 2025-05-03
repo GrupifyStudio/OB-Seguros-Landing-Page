@@ -27,7 +27,7 @@ export const FooterOne = () => {
                           <i className="flaticon-phone-call"></i>
                         </div>
                         <div className="content">
-                          <a href="tel:0123456789">+123 888 9999</a>
+                          <a href="tel:+57 311 811 1643">+57 311 811 1643</a>
                         </div>
                       </li>
                       <li>
@@ -36,7 +36,7 @@ export const FooterOne = () => {
                         </div>
                         <div className="content">
                           <p>
-                            Mon – Sat: 8 am – 5 pm, <br /> Sunday:{" "}
+                            Lunes – Viernes: 8 am – 5 pm, <br />
                             <span>CLOSED</span>
                           </p>
                         </div>

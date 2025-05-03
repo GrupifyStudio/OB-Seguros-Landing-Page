@@ -10,16 +10,16 @@ export const ServicesTwo = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-8">
             <div className="section-title-two mb-60 tg-heading-subheading animation-style3">
-              <span className="sub-title">What We Do For You</span>
+              <span className="sub-title">LO QUE HACEMOS POR TI</span>
               <h2 className="title tg-element-title">
-                We can inspire and Offer Different Services
-              </h2>
+              Ofrecemos Diferentes Servicios para Protegerte Mejor
+                            </h2>
             </div>
           </div>
           <div className="col-lg-6 col-md-4">
             <div className="view-all-btn text-end mb-30">
               <Link to="/services" className="btn">
-                See All Service
+                Ver todos los Servicios
               </Link>
             </div>
           </div>

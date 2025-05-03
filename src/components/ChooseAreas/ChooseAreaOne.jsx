@@ -19,7 +19,7 @@ export const ChooseAreaOne = () => {
             <div className="choose-content">
               <div className="section-title-two white-title mb-20 tg-heading-subheading animation-style3">
                 <h2 className="title tg-element-title">
-                  We’ll Ensure You Always Get the Best Guidance.
+                  We’ll Ensooure You Always Get the Best Guidance.
                 </h2>
               </div>
               <p>

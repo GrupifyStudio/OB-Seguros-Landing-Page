@@ -42,7 +42,7 @@ export const AboutFive = () => {
                 <div className="about-list">
                   <ul className="list-wrap">
                     <li>
-                      <i className="fas fa-arrow-right"></i>100% Better results
+                      <i className="fas fa-arrow-right"></i>100% Bettooer results
                     </li>
                     <li>
                       <i className="fas fa-arrow-right"></i>Suspe ndisse
