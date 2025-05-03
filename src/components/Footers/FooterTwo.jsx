@@ -13,7 +13,7 @@ export const FooterTwo = () => {
                 <div className="footer-widget">
                   <div className="fw-logo">
                     <Link to="/">
-                      <img src={LOGO} alt="" />
+                    <img src="/LogoObSeguros.png" alt="Logo" />
                     </Link>
                   </div>
 
@@ -26,7 +26,7 @@ export const FooterTwo = () => {
                             <i className="flaticon-phone-call"></i>
                           </div>
                           <div className="content">
-                            <a href="tel:+57 311 811 1643">+57 311 811 1643</a>
+                          <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
                           </div>
                         </li>
                         <li>
@@ -146,7 +146,7 @@ export const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="copyright-text-two text-center">
-                  <p>Copyright © gerow | All Right Reserved</p>
+                  <p>Copyright © OB Seguros | All Right Reserved</p>
                 </div>
               </div>
             </div>

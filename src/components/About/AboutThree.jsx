@@ -89,14 +89,14 @@ export const AboutThree = () => {
         </div>
       </div>
       <div className="about-shape-wrap-two">
-        <img src={H2_ABOUT_SHAPE01} alt="" />
-        <img src={H2_ABOUT_SHAPE02} alt="" />
-        <img
+        {/* <img src={H2_ABOUT_SHAPE01} alt="" />
+        <img src={H2_ABOUT_SHAPE02} alt="" /> */}
+        {/* <img
           src={H2_ABOUT_SHAPE03}
           alt=""
           data-aos="fade-left"
           data-aos-delay="500"
-        />
+        /> */}
       </div>
     </section>
   );

@@ -145,7 +145,7 @@ export const FooterThree = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="copyright-text-two text-center">
-                  <p>Copyright © gerow | All Right Reserved</p>
+                  <p>Copyright © OB Seguros | All Right Reserved</p>
                 </div>
               </div>
             </div>

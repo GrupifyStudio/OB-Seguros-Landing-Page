@@ -50,7 +50,7 @@ export const BrandOne = () => {
     <div className="brand-aera pb-100">
       <div className="container">
         <div className="row brand-active">
-          <SlickSlider settings={slick_settings_brands}>
+          {/* <SlickSlider settings={slick_settings_brands}>
             {BRAND_LIST.map((brand) => (
               <div key={brand.id} className="col-lg-12">
                 <div className="brand-item">
@@ -58,7 +58,7 @@ export const BrandOne = () => {
                 </div>
               </div>
             ))}
-          </SlickSlider>
+          </SlickSlider> */}
         </div>
       </div>
     </div>

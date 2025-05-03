@@ -27,7 +27,7 @@ export const FooterOne = () => {
                           <i className="flaticon-phone-call"></i>
                         </div>
                         <div className="content">
-                          <a href="tel:+57 311 811 1643">+57 311 811 1643</a>
+                        <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
                         </div>
                       </li>
                       <li>
@@ -121,7 +121,7 @@ export const FooterOne = () => {
                     </Link>
                   </div>
                   <div className="copyright-text">
-                    <p>Copyright © gerow | All Right Reserved</p>
+                    <p>Copyright © OB seguros | All Right Reserved</p>
                   </div>
                 </div>
               </div>

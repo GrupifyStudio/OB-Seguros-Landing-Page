@@ -38,32 +38,29 @@ export const HeaderTwo = () => {
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
+                      <a
+      href="https://www.facebook.com/people/OB-Seguros/100063504905303/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
+                     
                       <li>
                         <a href="#">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
-                          <i className="fab fa-pinterest-p"></i>
-                        </a>
+                       
                       </li>
                     </ul>
                   </div>
-                  <div className="header-top-btn">
+                  {/* <div className="header-top-btn">
                     <Link to="/contact">
                       <i className="flaticon-briefcase"></i>Free Consulting
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -97,10 +94,10 @@ export const HeaderTwo = () => {
                           </div>
                           <div className="content">
                             <span>Contacto</span>
-                            <a href="tel:311 811 1643">+57 311 811 1643</a>
-                          </div>
+                            <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
+                            </div>
                         </li>
-                        <li className="header-search">
+                        {/* <li className="header-search">
                           <a href="#">
                             <i className="flaticon-search"></i>
                           </a>
@@ -111,7 +108,7 @@ export const HeaderTwo = () => {
                             <span></span>
                             <span></span>
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </nav>

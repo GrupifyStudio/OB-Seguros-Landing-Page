@@ -56,8 +56,11 @@ export const BrandTwo = ({ className, title }) => {
               {BRAND_LIST.map((brand) => (
                 <div key={brand.id} className="col-lg-12">
                   <div className="brand-item">
-                    <img src={brand.src} alt="" />
-                  </div>
+                  <img
+                      src={brand.src}
+                      alt=""
+                      style={{ width: "190px", height: "60px", objectFit: "contain" }}
+                    />                  </div>
                 </div>
               ))}
             </SlickSlider>
@@ -70,8 +73,11 @@ export const BrandTwo = ({ className, title }) => {
                 {BRAND_LIST.map((brand) => (
                   <div key={brand.id} className="col-lg-12">
                     <div className="brand-item">
-                      <img src={brand.src} alt="" />
-                    </div>
+                    <img
+                      src={brand.src}
+                      alt=""
+                      style={{ width: "190px", height: "60px", objectFit: "contain" }}
+                    />                    </div>
                   </div>
                 ))}
               </SlickSlider>

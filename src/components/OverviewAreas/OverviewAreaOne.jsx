@@ -19,8 +19,8 @@ export const OverviewAreaOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="overview-img-wrap">
               <img src={OVERVIEW_IMG01} alt="" />
-              <img src={OVERVIEW_IMG02} alt="" data-parallax='{"x" : 50 }' />
-              <img src={OVERVIEW_IMG_SHAPE} alt="" />
+              {/* <img src={OVERVIEW_IMG02} alt="" data-parallax='{"x" : 50 }' /> */}
+              {/* <img src={OVERVIEW_IMG_SHAPE} alt="" /> */}
               <div className="icon">
                 <i className="flaticon-report-1"></i>
               </div>

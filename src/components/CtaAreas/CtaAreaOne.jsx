@@ -15,8 +15,8 @@ export const CtaAreaOne = () => {
                   </div>
                   <div className="content">
                     <span>Llama para más información:</span>
-                    <a href="tel:+57 311 811 1643">+57 311 811 1643</a>
-                  </div>
+                    <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
+                    </div>
                 </div>
                 <h2 className="title">
                 Agenda una consulta gratuita con nuestro equipo de expertos.                </h2>
