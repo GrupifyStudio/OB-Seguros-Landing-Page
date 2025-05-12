@@ -88,15 +88,13 @@ export const HeaderSix = () => {
 
                     <div className="header-action d-none d-md-block">
                       <ul className="list-wrap">
-                        <li className="header-search">
-                          <a href="#">
+                        {/* <li className="header-search"> */}
+                          {/* <a href="#">
                             <i className="flaticon-search"></i>
-                          </a>
-                        </li>
+                          </a> */}
+                        {/* </li> */}
                         <li className="header-btn">
-                          <Link to="/contact" className="btn btn-two">
-                            Get a Quote
-                          </Link>
+                    
                         </li>
                       </ul>
                     </div>
@@ -111,7 +109,7 @@ export const HeaderSix = () => {
         </div>
 
         {/* header-search */}
-        <HeaderSearch />
+        {/* <HeaderSearch /> */}
       </header>
     </>
   );

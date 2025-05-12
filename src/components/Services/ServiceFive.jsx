@@ -13,9 +13,9 @@ export const ServiceFive = () => {
           <div className="col-xl-6 col-lg-8 col-md-10">
             <div className="section-title-two text-center mb-50">
               <h2 className="title">
-                Spotlight some most important features We have
+Explora las soluciones más importantes que ofrecemos
               </h2>
-              <p>Borem ipsum dolor sit amet consectetur adipiscing elita</p>
+              <p> Protegemos tu vida, tu empresa y tu patrimonio con planes diseñados para ti.</p>
             </div>
           </div>
         </div>

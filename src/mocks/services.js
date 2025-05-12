@@ -16,7 +16,7 @@ import {
 export const SERVICES_TWO_LIST = [
   {
     id: 1,
-    src: H2_SERVICES_IMG01,
+    src: H2_SERVICES_IMG02,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-life-insurance", // Asegúrate de tener este ícono o uno similar
     href: "/services-details",
@@ -25,7 +25,7 @@ export const SERVICES_TWO_LIST = [
   },
   {
     id: 2,
-    src: H2_SERVICES_IMG02,
+    src: H2_SERVICES_IMG03,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-house", // Ícono sugerido para hogar
     href: "/services-details",
@@ -34,7 +34,7 @@ export const SERVICES_TWO_LIST = [
   },
   {
     id: 3,
-    src: H2_SERVICES_IMG03,
+    src: H2_SERVICES_IMG01,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-car-insurance", // Ícono sugerido para vehículos
     href: "/services-details",
@@ -113,42 +113,102 @@ export const SERVICES_FOUR_LIST = [
       "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
   },
 ];
-
 export const SERVICES_ONE_LIST = [
   {
     id: 1,
     icon: "flaticon-briefcase",
     href: "/services-details",
     src: SERVICES_IMG01,
-    title: "Business Analysis",
-    subtitle:
-      "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
+    title: "Seguro de Vida Individual",
+    subtitle: "Protección a largo plazo para ti y tu familia. Acceso a coberturas flexibles. Apoyo económico en momentos difíciles.",
   },
   {
     id: 2,
-    icon: "flaticon-taxes",
+    icon: "flaticon-briefcase",
     href: "/services-details",
     src: SERVICES_IMG02,
-    title: "Tax Strategy",
-    subtitle:
-      "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
+    title: "Seguro de Vida Grupo",
+    subtitle: "Ideal para empleados o colectivos. Tarifas preferenciales. Cobertura ante fallecimiento o invalidez.",
   },
   {
     id: 3,
-    icon: "flaticon-money",
+    icon: "flaticon-briefcase",
     href: "/services-details",
     src: SERVICES_IMG03,
-    title: "Financial Advice",
-    subtitle:
-      "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
+    title: "Seguro de Educación",
+    subtitle: "Asegura el futuro académico de tus hijos. Planificación financiera a largo plazo. Cobertura ante imprevistos.",
   },
   {
     id: 4,
-    icon: "flaticon-taxes",
+    icon: "flaticon-briefcase",
     href: "/services-details",
     src: SERVICES_IMG02,
-    title: "Tax Strategy",
-    subtitle:
-      "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
+    title: "Seguro de Salud",
+    subtitle: "Amplia red médica y hospitalaria. Planes individuales y familiares. Cobertura nacional.",
   },
+  {
+    id: 5,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguro de Accidentes",
+    subtitle: "Asistencia médica inmediata. Indemnización por incapacidad o muerte accidental. Cobertura 24/7.",
+  },
+  {
+    id: 6,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguro de Pensión Voluntaria",
+    subtitle: "Ahorro flexible para tu retiro. Beneficios tributarios. Opciones de renta vitalicia.",
+  },
+  {
+    id: 7,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguro de Rentas",
+    subtitle: "Ingresos programados. Tranquilidad financiera mensual. Ideal para planificación familiar.",
+  },
+  {
+    id: 8,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "RC Médica",
+    subtitle: "Protección ante demandas por negligencia. Cobertura a profesionales de la salud. Acompañamiento legal especializado.",
+  },
+  {
+    id: 9,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguros Empresariales, Patrimoniales e Ingeniería",
+    subtitle: "Cobertura integral para empresas, patrimonios y proyectos de ingeniería.",
+  },
+  {
+    id: 10,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Todo Riesgo Daños Materiales",
+    subtitle: "Cobertura ante incendios, terremotos, robos. Protección integral para instalaciones.",
+  },
+  {
+    id: 11,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguro de Hogar",
+    subtitle: "Protección contra daños materiales y robos. Asistencia domiciliaria. Responsabilidad civil incluida.",
+  },
+  {
+    id: 12,
+    icon: "flaticon-briefcase",
+    href: "/services-details",
+    src: "",
+    title: "Seguro de Automóviles",
+    subtitle: "Cobertura para autos particulares, pesados, motos y servicio público. Asistencia en carretera. Daños a terceros y pérdida total.",
+  }
 ];
+

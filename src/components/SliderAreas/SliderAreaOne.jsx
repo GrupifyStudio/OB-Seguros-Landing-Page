@@ -47,7 +47,7 @@ export const SliderAreaOne = () => {
                         data-animation="fadeInUp"
                         data-delay=".8s"
                       >
-                        Our Services
+                        Our Siiervices
                       </Link>
                     </div>
                   </div>

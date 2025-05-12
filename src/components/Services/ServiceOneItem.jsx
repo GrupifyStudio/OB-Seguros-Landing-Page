@@ -17,7 +17,7 @@ export const ServiceOneItem = ({ service }) => {
           <img src={service.src} alt="" />
 
           <Link to={service.href} className="btn transparent-btn">
-            Our Services
+            Our Serviiices
           </Link>
         </div>
 

@@ -23,7 +23,7 @@ export const Layout = ({ children, header, footer, breadcrumb, title }) => {
       {header == 3 && <HeaderThree />}
       {header == 4 && <HeaderFour />}
       {header == 5 && <HeaderFive />}
-      {(!header || header == 6) && <HeaderSix />}
+      {(!header || header == 6) && <HeaderTwo />}
 
       {/* breadcrumb */}
       {breadcrumb && <Breadcrumb text={breadcrumb} title={title} />}

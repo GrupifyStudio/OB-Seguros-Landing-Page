@@ -127,50 +127,10 @@ export const NavMenus = () => {
               .includes(pathname),
           })}
         >
-          <a href="#">Servicios</a>
-          <ul className="sub-menu">
-            <li
-              className={cn("menu-item-has-children", {
-                active: [...servicesLinkList]
-                  .map((el) => el.to)
-                  .includes(pathname),
-              })}
-            >
-              <Link to="/services">Services</Link>
-              <ul className="sub-menu">
-                {servicesLinkList.map((el) => (
-                  <li key={el.to} className={cn(isActiveCn(el.to))}>
-                    <Link to={el.to}>{el.title}</Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-            <li
-              className={cn("menu-item-has-children", {
-                active: [...servicesDetailsLinkList]
-                  .map((el) => el.to)
-                  .includes(pathname),
-              })}
-            >
-              <Link to="/services-details">Services Details</Link>
-              <ul className="sub-menu">
-                {servicesDetailsLinkList.map((el) => (
-                  <li key={el.to} className={cn(isActiveCn(el.to))}>
-                    <Link to={el.to}>{el.title}</Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-            <li className={cn(isActiveCn("/project-details"))}>
-              <Link to="/project-details">Portfolio Details</Link>
-            </li>
-            <li className={cn(isActiveCn("/team-details"))}>
-              <Link to="/team-details">Team Details</Link>
-            </li>
-            <li className={cn(isActiveCn("/error"))}>
-              <Link to="/error">404 Error</Link>
-            </li>
-          </ul>
+<li className={cn(isActiveCn("/services"))}>
+  <Link to="/services">Servicios</Link>
+</li>
+  
         </li>
 
         {/* blog */}
