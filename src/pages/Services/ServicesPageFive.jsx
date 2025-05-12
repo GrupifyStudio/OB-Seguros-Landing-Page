@@ -5,7 +5,7 @@ import { ServiceFour } from "../../components/Services/ServiceFour";
 
 const ServicesPageFive = () => {
   return (
-    <Layout breadcrumb={"Services"}  title={'Our Services'} >
+    <Layout breadcrumb={"Servicios"}  title={'Our Services'} >
       {/* services */}
       <ServiceFour className={"services-area-seven"} isServicePage />
 

@@ -33,7 +33,7 @@ export const ServicesDetailsSidebar = ({
         </div>
       ) : (
         <div className="services-widget">
-          <h4 className="sw-title">Our Services</h4>
+          <h4 className="sw-title">Our Seiirvices</h4>
           <div className="services-cat-list">
             <ul className="list-wrap">
               {services.map((item, idx) => (

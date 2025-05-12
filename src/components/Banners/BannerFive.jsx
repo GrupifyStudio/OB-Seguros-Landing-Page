@@ -59,7 +59,7 @@ export const BannerFive = () => {
                 data-aos="fade-right"
                 data-aos-delay="600"
               >
-                Our Services
+                Our Serviiices
               </Link>
             </div>
           </div>

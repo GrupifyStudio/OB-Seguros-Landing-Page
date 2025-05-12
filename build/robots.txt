@@ -1,0 +1,3 @@
+# robots.txt para indexación completa
+User-agent: *
+Allow: /

@@ -81,7 +81,7 @@ export const HeaderOne = () => {
                       </li>
                       <li className="header-btn">
                         <Link to="/contact" className="btn btn-two">
-                          Get a Quote
+                          Get a Quot
                         </Link>
                       </li>
                     </ul>

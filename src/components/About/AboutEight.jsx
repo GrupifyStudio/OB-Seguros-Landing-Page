@@ -65,7 +65,7 @@ export const AboutEight = () => {
               <div className="about-content-bottom">
                 <div className="services-btn">
                   <Link to="/services" className="btn">
-                    Our Services
+                    Our ervices
                   </Link>
                 </div>
 
