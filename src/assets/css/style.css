@@ -540,7 +540,7 @@ label {
 .logo img,
 .f-logo img,
 .fw-logo img {
-  max-height: 29px;
+  max-height: 40px;
 }
 .navbar-wrap {
   display: flex;
@@ -887,6 +887,17 @@ label {
 /*=============================
 	03. Mobile Menu
 ===============================*/
+.logo-img {
+  display: block;
+  height: 180px;
+  width: auto;
+  object-fit: contain;
+}
+
+.menu-wrap {
+  height: 100%;
+}
+
 .nav-outer .mobile-nav-toggler {
   position: relative;
   float: right;
@@ -1800,7 +1811,7 @@ label {
 	08. Breadcrumb
 ===============================*/
 .breadcrumb-bg {
-  background: url("../img/bg/breadcrumb_bg.jpg");
+  background: url("../img/bg/breadcrumb_bg.jpeg");
   background-size: cover;
   background-position: center;
   padding: 120px 0 130px;
@@ -3774,6 +3785,7 @@ label {
   line-height: 0;
   margin-right: 15px;
   transition: 0.3s ease-in;
+  flex-shrink:0;
 }
 .services-item:hover .services-content .content-top .icon {
   background: var(--tg-primary-color);
@@ -3948,10 +3960,16 @@ label {
   position: absolute;
   left: 30px;
   right: 30px;
-  bottom: -45px;
+  bottom: -52px;
   z-index: 2;
   transition: all 0.3s linear;
 }
+@media (max-width: 991.98px) {
+  .services-content-two {
+    bottom: 20px;
+  }
+}
+
 .services-content-two .icon {
   width: 55px;
   height: 55px;
@@ -3977,7 +3995,6 @@ label {
 .services-content-two p {
   margin-bottom: 5px;
   color: var(--tg-lavender);
-  opacity: 0;
   transition: opacity 0.3s linear;
 }
 .services-item-two:hover .services-content-two {
@@ -4144,7 +4161,7 @@ label {
 
 /* services-five */
 .inner-services-bg {
-  background: url('../img/bg/inner_services_bg.jpg');
+  background: url('../img/bg/inner_services_bg.jpeg');
   background-size: cover;
   background-position: center;
   padding: 120px 0 90px;
@@ -8224,7 +8241,7 @@ label {
 	27. Footer
 ===============================*/
 .footer-bg {
-  background: url("../img/bg/footer_bg.jpg");
+  background: url("../img/bg/footer-blue.jpeg");
   background-position: center;
   background-size: cover;
 }

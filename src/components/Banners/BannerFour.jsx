@@ -31,7 +31,7 @@ export const BannerFour = () => {
                 Enjoy Life With Safety Insurance
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
-              En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
+              En Omaira Barbosa Asesores de Seguros Ltda convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
               </p>
               <Link
                 to="/services"

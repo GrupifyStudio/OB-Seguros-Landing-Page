@@ -39,7 +39,7 @@ export const HeaderTwo = () => {
                     <ul className="list-wrap">
                       <li>
                       <a
-      href="https://www.facebook.com/people/OB-Seguros/100063504905303/"
+      href="https://www.facebook.com/share/16d7TgrNMJ/"
       target="_blank"
       rel="noopener noreferrer"
     >                          <i className="fab fa-facebook-f"></i>
@@ -47,7 +47,7 @@ export const HeaderTwo = () => {
                       </li>
                      
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/obseguros01/profilecard/?igsh=a2hoNHRyNTY5dmth">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
@@ -67,9 +67,9 @@ export const HeaderTwo = () => {
           </div>
 
           <div className="menu-area">
-            <div className="row">
+            <div className="row" style={{backgroundColor:"white"}}>
               <div className="col-12">
-                <div className="mobile-nav-toggler">
+                <div className="mobile-nav-toggler d-flex align-items-center d-lg-none">
                   <i className="fas fa-bars"></i>
                 </div>
                 <div className="menu-wrap">
@@ -79,7 +79,7 @@ export const HeaderTwo = () => {
                       <img 
       src="/LogoObSeguros.png" 
       alt="Logo de OB Seguros" 
-      style={{ width: 'auto', height: '180px' }} 
+      className="logo-img"
     />                      </Link>
                     </div>
 

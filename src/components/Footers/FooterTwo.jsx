@@ -8,7 +8,7 @@ export const FooterTwo = () => {
       <div className="footer-area-two footer-bg-two">
         <div className="footer-top-two">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-4 col-md-7">
                 <div className="footer-widget">
                   <div className="fw-logo">
@@ -51,11 +51,12 @@ export const FooterTwo = () => {
                   <div className="footer-link">
                     <ul className="list-wrap">
                       <li>
-                        <Link to="/about">Company</Link>
+                        <Link to="/">Inicio</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Careers</Link>
+                        <Link to="/services">Servicios</Link>
                       </li>
+                      {/*
                       <li>
                         <Link to="/contact">Press media</Link>
                       </li>
@@ -65,10 +66,12 @@ export const FooterTwo = () => {
                       <li>
                         <Link to="/contact">Privacy Policy</Link>
                       </li>
+                      */}
                     </ul>
                   </div>
                 </div>
               </div>
+              {/* Removed quick links, uncomment to show them again
               <div className="col-lg-2 col-md-5 col-sm-6">
                 <div className="footer-widget">
                   <h4 className="fw-title">Quick Links</h4>
@@ -93,10 +96,12 @@ export const FooterTwo = () => {
                   </div>
                 </div>
               </div>
+              */}
               <div className="col-lg-4 col-md-7">
                 <div className="footer-widget">
-                  <h4 className="fw-title">Our Newsletter</h4>
+                  <h4 className="fw-title">Our Socials</h4>
                   <div className="footer-newsletter">
+                  {/* Change text up here to newsletter if you remove the comments
                     <p>
                       Sign up to Privitar’s weekly newsletter to get the latest
                       updates.
@@ -105,23 +110,27 @@ export const FooterTwo = () => {
                       <input type="email" placeholder="enter your e-mail" />
                       <button type="submit">Subscribe</button>
                     </form>
+                  */}
                     <div className="footer-social footer-social-two">
                       <ul className="list-wrap">
                         <li>
-                          <a href="#">
+                          <a href="https://www.facebook.com/share/16d7TgrNMJ/">
                             <i className="fab fa-facebook-f"></i>
                           </a>
                         </li>
+                        {/*
                         <li>
                           <a href="#">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
+                        */}
                         <li>
-                          <a href="#">
+                          <a href="https://www.instagram.com/obseguros01/profilecard/?igsh=a2hoNHRyNTY5dmth">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
+                        {/*
                         <li>
                           <a href="#">
                             <i className="fab fa-pinterest-p"></i>
@@ -132,6 +141,7 @@ export const FooterTwo = () => {
                             <i className="fab fa-youtube"></i>
                           </a>
                         </li>
+                        */}
                       </ul>
                     </div>
                   </div>

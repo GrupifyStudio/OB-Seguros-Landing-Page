@@ -8,7 +8,7 @@ export const FooterOne = () => {
       <div className="footer-area footer-bg">
         <div className="container">
           <div className="footer-top">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-3 col-md-7">
                 <div className="footer-widget">
                   <h4 className="fw-title">Information</h4>
@@ -51,48 +51,51 @@ export const FooterOne = () => {
                   <div className="footer-link">
                     <ul className="list-wrap">
                       <li>
-                        <Link to="/about">Company</Link>
+                        <Link to="/">Inicio</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Careers</Link>
+                        <Link to="/services">Servicios</Link>
+                      </li>
+                      {/*
+                      <li>
+                        <Link to="/contact">Prensa</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Press media</Link>
-                      </li>
-                      <li>
-                        <Link to="/blog">Our Blog</Link>
+                        <Link to="/blog">Nuestro Blog</Link>
                       </li>
                       <li>
                         <Link to="/contact">Privacy Policy</Link>
                       </li>
+                      */}
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-5 col-sm-6">
                 <div className="footer-widget">
-                  <h4 className="fw-title">Quick Links</h4>
+                  <h4 className="fw-title">Links Rapidos</h4>
                   <div className="footer-link">
                     <ul className="list-wrap">
                       <li>
-                        <Link to="/contact">How it’s Work</Link>
+                        <Link to="/contact">Como trabajamos</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Partners</Link>
+                        <Link to="/contact">Aliados</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Testimonials</Link>
+                        <Link to="/contact">Testimonios</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Case Studies</Link>
+                        <Link to="/contact">Casos de estudio</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Pricing</Link>
+                        <Link to="/contact">Precios</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
+              {/* newsletter commented out
               <div className="col-lg-4 col-md-7">
                 <div className="footer-widget">
                   <h4 className="fw-title">Subscribe to Our Newsletter</h4>
@@ -108,7 +111,7 @@ export const FooterOne = () => {
                     <span>We don’t send you any spam</span>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
           <div className="footer-bottom">
@@ -117,11 +120,11 @@ export const FooterOne = () => {
                 <div className="left-sider">
                   <div className="f-logo">
                     <Link to="/">
-                      <img src={W_LOGO} alt="" />
+                      <img src="/LogoObSeguros.png" alt="" />
                     </Link>
                   </div>
                   <div className="copyright-text">
-                    <p>Copyright © OB seguros | All Right Reserved</p>
+                    <p>Copyright © OB seguros | Todos los derechos asegurados</p>
                   </div>
                 </div>
               </div>
@@ -129,20 +132,23 @@ export const FooterOne = () => {
                 <div className="footer-social">
                   <ul className="list-wrap">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/share/16d7TgrNMJ/">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
+                    {/*
                     <li>
                       <a href="#">
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
+                    */}
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/obseguros01/profilecard/?igsh=a2hoNHRyNTY5dmth">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
+                    {/*
                     <li>
                       <a href="#">
                         <i className="fab fa-pinterest-p"></i>
@@ -153,6 +159,7 @@ export const FooterOne = () => {
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
+                    */}
                   </ul>
                 </div>
               </div>

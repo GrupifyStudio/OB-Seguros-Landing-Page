@@ -45,7 +45,7 @@ export const SERVICES_TWO_LIST = [
     id: 4,
     src: H2_SERVICES_IMG04,
     srcShape: SERVICES_ITEM_SHAPE,
-    icon: "flaticon-company", // Ícono sugerido para empresas
+    icon: "flaticon-piggy-bank", // Ícono sugerido para empresas
     href: "/services-details",
     title: "Seguros Empresariales",
     subtitle: "🏢 Protección integral para tu empresa.",

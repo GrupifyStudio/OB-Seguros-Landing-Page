@@ -10,21 +10,26 @@ export const ServiceOneItem = ({ service }) => {
             <i className={service.icon}></i>
           </div>
 
-          <h2 className="title">{service.title} </h2>
+          <h2 className="title">{service.title}</h2>
         </div>
 
         <div className="services-thumb">
-          <img src={service.src} alt="" />
+          <img src={service.src} alt={service.title} />
 
+          {/* Link dinamico
           <Link to={service.href} className="btn transparent-btn">
-            Our Serviiices
+            Ver Servicio
+          </Link>
+          */}
+          <Link to={"#"} className="btn transparent-btn">
+            Ver Servicio
           </Link>
         </div>
 
         <ul className="list-wrap">
-          <li>seusmeyd tempose atidim area</li>
-          <li>aliquam duhipsum is simply free</li>
-          <li>Get Life Time Access</li>
+          {service.features.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </ul>
       </div>
     </div>

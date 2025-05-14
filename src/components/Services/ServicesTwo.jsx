@@ -25,11 +25,11 @@ export const ServicesTwo = () => {
           </div>
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center align-items-lg-stretch">
           {SERVICES_TWO_LIST.map((service) => (
             <div
               key={service.id}
-              className="col-xl-3 col-lg-4 col-md-6 col-sm-8"
+              className="col-xl-3 col-lg-4 col-md-6 col-sm-8 d-lg-flex"
             >
               <ServicesTwoItem service={service} />
             </div>

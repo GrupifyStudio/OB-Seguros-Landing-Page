@@ -39,7 +39,7 @@ export const BannerThree = () => {
                 Need Business Consultation Today
               </h2>
               <p data-aos="fade-right" data-aos-delay="300">
-              En Omaira Barbosa Asesores de Seguros LTDA convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
+              En Omaira Barbosa Asesores de Seguros Ltda convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
               </p>
               <form
                 action="#"

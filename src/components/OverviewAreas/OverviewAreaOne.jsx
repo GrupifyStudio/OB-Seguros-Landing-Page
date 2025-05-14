@@ -35,7 +35,7 @@ export const OverviewAreaOne = () => {
                                 </h2>
               </div>
               <p className="info-one">
-              En Omaira Barbosa Asesores de Seguros LTDA contamos con más de 
+              En Omaira Barbosa Asesores de Seguros Ltda contamos con más de 
               15 años de experiencia asesorando a personas, familias y empresas. 
               Trabajamos de la mano contigo para ofrecer soluciones de protección 
               integral, respaldadas por las principales aseguradoras del país.

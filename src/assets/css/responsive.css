@@ -851,6 +851,7 @@
   }
   .menu-nav {
     justify-content: space-between;
+    height:100%;
   }
   .header-action {
     margin-right: 30px;
@@ -974,6 +975,7 @@
   }
   .header-style-two .menu-area .mobile-nav-toggler {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .banner-content-two {
     text-align: center;

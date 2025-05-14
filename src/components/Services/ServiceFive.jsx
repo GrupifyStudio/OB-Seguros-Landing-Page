@@ -1,10 +1,11 @@
 import React from "react";
 import { SERVICES_ONE_LIST } from "../../mocks/services";
 import { ServiceOneItem } from "./ServiceOneItem";
+import { REAL_SERVICES_LIST } from "./REAL_SERVICES_LIST";
 
 export const ServiceFive = () => {
-  const list = [...SERVICES_ONE_LIST, ...SERVICES_ONE_LIST];
-  list.length = 6;
+  const list = REAL_SERVICES_LIST.slice(0, 24);
+  list.length = 25;
 
   return (
     <section className="services-area-five inner-services-bg">

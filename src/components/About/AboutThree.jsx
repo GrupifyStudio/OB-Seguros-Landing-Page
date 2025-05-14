@@ -56,7 +56,7 @@ export const AboutThree = () => {
                 Soluciones Innovadoras y Confiables para tu Protección Integral                </h2>
               </div>
               <p className="info-one">
-              En Omaira Barbosa Asesores de Seguros LTDA trabajamos con dedicación, compromiso y más de 15 años de experiencia, brindando soluciones integrales y adaptadas a las necesidades específicas de cada cliente, protegiendo así tu patrimonio, 
+              En Omaira Barbosa Asesores de Seguros Ltda trabajamos con dedicación, compromiso y más de 15 años de experiencia, brindando soluciones integrales y adaptadas a las necesidades específicas de cada cliente, protegiendo así tu patrimonio, 
               vida y futuro con máxima responsabilidad.
               </p>
 
