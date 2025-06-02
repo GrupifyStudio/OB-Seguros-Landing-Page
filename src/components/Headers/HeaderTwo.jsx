@@ -33,7 +33,7 @@ export const HeaderTwo = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-5" style={{paddingRight:"0"}}>
                 <div className="header-top-right">
                   <div className="header-social">
                     <ul className="list-wrap">
@@ -56,11 +56,11 @@ export const HeaderTwo = () => {
                       </li>
                     </ul>
                   </div>
-                  {/* <div className="header-top-btn">
+                  <div className="header-top-btn">
                     <Link to="/contact">
-                      <i className="flaticon-briefcase"></i>Free Consulting
+                      <i className="flaticon-briefcase"></i>Contactanos
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

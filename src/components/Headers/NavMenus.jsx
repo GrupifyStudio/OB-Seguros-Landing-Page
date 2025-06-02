@@ -111,12 +111,10 @@ export const NavMenus = () => {
         </li>
 
         {/* about */}
-        {/*}
-        <li className={cn(isActiveCn("/"))}>
+        <li className={cn(isActiveCn("/about"))}>
 
-          <a href="#">Nosotros</a>
+          <a href="/about">Nosotros</a>
         </li>
-        */}
 
         {/* pages */}
         <li
@@ -144,11 +142,9 @@ export const NavMenus = () => {
         </li>
 
         {/* contact */}
-        {/*
         <li className={cn(isActiveCn("/contact"))}>
           <Link to="/contact">Contacto</Link>
         </li>
-        */}
       </ul>
     </div>
   );

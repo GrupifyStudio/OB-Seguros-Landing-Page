@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LOGO } from "../../lib/assets";
+import { LOGO } from "../../lib/assets"; // Uncommented as requested
 
 export const FooterTwo = () => {
   return (
@@ -13,12 +13,11 @@ export const FooterTwo = () => {
                 <div className="footer-widget">
                   <div className="fw-logo">
                     <Link to="/">
-                    <img src="/LogoObSeguros.png" alt="Logo" />
+                      <img src="/LogoObSeguros.png" alt="Logo" />
                     </Link>
                   </div>
 
                   <div className="footer-content">
-              
                     <div className="footer-info">
                       <ul className="list-wrap">
                         <li>
@@ -26,7 +25,23 @@ export const FooterTwo = () => {
                             <i className="flaticon-phone-call"></i>
                           </div>
                           <div className="content">
-                          <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
+                            <a href="https://wa.me/573143357610" target="_blank" rel="noopener noreferrer">+57 314 335 7610</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <i className="flaticon-phone-call"></i>
+                          </div>
+                          <div className="content">
+                            <a href="https://wa.me/573232196219" target="_blank" rel="noopener noreferrer">+57 323 219 6219</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <i className="flaticon-phone-call"></i>
+                          </div>
+                          <div className="content">
+                            <a href="https://wa.me/573209208399" target="_blank" rel="noopener noreferrer">+57 320 920 8399</a>
                           </div>
                         </li>
                         <li>
@@ -35,7 +50,7 @@ export const FooterTwo = () => {
                           </div>
                           <div className="content">
                             <p>
-                              Lunes – Viernes: 8 am – 5 pm, <br />
+                              Lunes – Viernes: 7:30 am – 6:00 pm, <br />
                             </p>
                           </div>
                         </li>
@@ -99,7 +114,7 @@ export const FooterTwo = () => {
               */}
               <div className="col-lg-4 col-md-7">
                 <div className="footer-widget">
-                  <h4 className="fw-title">Our Socials</h4>
+                  <h4 className="fw-title">Nuestras Redes</h4>
                   <div className="footer-newsletter">
                   {/* Change text up here to newsletter if you remove the comments
                     <p>

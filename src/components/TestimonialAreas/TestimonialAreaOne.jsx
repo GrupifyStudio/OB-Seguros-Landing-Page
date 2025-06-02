@@ -5,6 +5,7 @@ import {
   SlickSliderArrowNext,
   SlickSliderArrowPrev,
 } from "../SlickSlider/SlickSlider";
+import guy from '../../assets/img/about-placeholders/guy.jpg';
 
 export const TestimonialAreaOne = () => {
   const slick_settings_brands = {
@@ -61,7 +62,7 @@ export const TestimonialAreaOne = () => {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-5 col-md-8">
             <div className="testimonial-img">
-              <img src={TESTIMONIAL_IMG} alt="" />
+              <img src={guy} alt="" />
 
               <div className="review-wrap">
                 <img src={RATING} alt="" />

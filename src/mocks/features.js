@@ -3,20 +3,20 @@ export const FEATURE_TWO_LIST = [
   {
     id: 1,
     icon: "flaticon-family", // Puedes cambiar el ícono si tienes otro en mente
-    title: "Seguros para Personas",
-    subtitle: "Protección personalizada para ti y tu familia: vida, salud, educación, accidentes y pensión.",
+    title: "Seguros para personas",
+    subtitle: "Protección personalizada para ti y tu familia: Seguros de Vida, Salud, Educación, Accidentes y Pensión.",
   },
   {
     id: 2,
     icon: "flaticon-investment", // Ícono sugerido, puedes ajustarlo según tu librería
     title: "Seguros Empresariales",
-    subtitle: "Soluciones integrales que aseguran tu patrimonio, automóviles, responsabilidad civil e ingeniería.",
+    subtitle: "Soluciones integrales para proteger tu patrimonio: Seguros de Automóviles, Responsabilidad Civil, e Ingeniería.",
   },
   {
     id: 3,
     icon: "flaticon-taxes", // Ícono sugerido
     title: "Seguros de Cumplimiento",
-    subtitle: "Garantizamos el cumplimiento de tus obligaciones contractuales y legales con total seguridad.",
+    subtitle: "Garantizamos el cumplimiento de tus obligaciones contractuales y legales con respaldo y total seguridad.",
   },
 ];
 
@@ -79,20 +79,20 @@ export const FEATURE_FOUR_LIST = [
 export const FEATURE_ONE_LIST = [
   {
     id: 1,
-    icon: "flaticon-puzzle-piece",
-    title: "Quality Services",
-    subtitle: "Eiusmod Temporincididunt Ut Labore Magna Aliqua Quisery.",
+    icon: "flaticon-folder", // Puedes cambiar el ícono si tienes otro en mente
+    title: "Asesoría Personalizada",
+    subtitle: "Acompañamiento experto en cada etapa del proceso, desde la cotización hasta la reclamación.",
   },
   {
     id: 2,
-    icon: "flaticon-inspiration",
-    title: "Innovation Ideas",
-    subtitle: "Eiusmod Temporincididunt Ut Labore Magna Aliqua Quisery.",
+    icon: "flaticon-inspiration", // Ícono sugerido, puedes ajustarlo según tu librería
+    title: "Soluciones a la Medida",
+    subtitle: "Diseñamos planes de seguros según tu perfil personal o empresarial, sin coberturas innecesarias.",
   },
   {
     id: 3,
-    icon: "flaticon-profit",
-    title: "Business Growth",
-    subtitle: "Eiusmod Temporincididunt Ut Labore Magna Aliqua Quisery.",
+    icon: "flaticon-rocket", // Ícono sugerido
+    title: "Crecimiento Seguro",
+    subtitle: "Apoyamos a personas y empresas en su crecimiento, garantizando respaldo, estabilidad y tranquilidad.",
   },
 ];

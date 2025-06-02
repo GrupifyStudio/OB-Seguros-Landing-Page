@@ -25,15 +25,15 @@ import rcCumplimiento from "../../assets/img/services/services-page/rc-cumplimie
 import arrendamiento from "../../assets/img/services/services-page/arrendamiento.jpg";
 import judiciales from "../../assets/img/services/services-page/judiciales.jpg";
 
-// Real services list
+// Real services list updated with your available Flaticon icons and new feature descriptions
 export const REAL_SERVICES_LIST = [
   {
     id: 1,
-    icon: "fas fa-user-shield",
+    icon: "flaticon-life-insurance",
     title: "Seguro de Vida Individual",
     src: vidaIndividual,
     href: "/servicios/vida-individual",
-    features: [
+    features: [ // Actualizado
       "Protección a largo plazo para ti y tu familia",
       "Coberturas flexibles",
       "Apoyo económico en momentos difíciles"
@@ -41,23 +41,23 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 2,
-    icon: "fas fa-users",
+    icon: "flaticon-family",
     title: "Seguro de Vida Grupo",
     src: vidaGrupo,
     href: "/servicios/vida-grupo",
-    features: [
-      "Ideal para empleados o colectivos",
+    features: [ // Actualizado
+      "Ideal para Empleados o Colectivos.",
       "Tarifas preferenciales",
       "Cobertura ante fallecimiento o invalidez"
     ]
   },
   {
     id: 3,
-    icon: "fas fa-graduation-cap",
+    icon: "flaticon-investment", // Icono representativo para educación/futuro
     title: "Seguro de Educación",
     src: educacion,
     href: "/servicios/educacion",
-    features: [
+    features: [ // Actualizado
       "Asegura el futuro académico de tus hijos",
       "Planificación financiera a largo plazo",
       "Cobertura ante imprevistos"
@@ -65,11 +65,11 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 4,
-    icon: "fas fa-heartbeat",
+    icon: "flaticon-healthcare",
     title: "Seguro de Salud",
     src: salud,
     href: "/servicios/salud",
-    features: [
+    features: [ // Actualizado
       "Amplia red médica y hospitalaria",
       "Planes individuales y familiares",
       "Cobertura nacional"
@@ -77,7 +77,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 5,
-    icon: "fas fa-ambulance",
+    icon: "flaticon-protection",
     title: "Seguro de Accidentes",
     src: accidentes,
     href: "/servicios/accidentes",
@@ -89,11 +89,11 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 6,
-    icon: "fas fa-piggy-bank",
+    icon: "flaticon-piggy-bank",
     title: "Seguro de Pensión Voluntaria",
     src: pension,
     href: "/servicios/pension-voluntaria",
-    features: [
+    features: [ // Actualizado
       "Ahorro flexible para tu retiro",
       "Beneficios tributarios",
       "Opciones de renta vitalicia"
@@ -101,11 +101,11 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 7,
-    icon: "fas fa-coins",
+    icon: "flaticon-money",
     title: "Seguro de Rentas",
     src: rentas,
     href: "/servicios/rentas",
-    features: [
+    features: [ // Actualizado
       "Ingresos programados",
       "Tranquilidad financiera mensual",
       "Ideal para planificación familiar"
@@ -113,11 +113,11 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 8,
-    icon: "fas fa-user-md",
-    title: "RC Médica",
+    icon: "flaticon-protection-1", // Manteniendo el icono anterior para RC Médica
+    title: "RC Médica", // El título original era "RC Médica"
     src: rcMedica,
     href: "/servicios/rc-medica",
-    features: [
+    features: [ // Actualizado
       "Protección ante demandas por negligencia",
       "Cobertura a profesionales de la salud",
       "Acompañamiento legal especializado"
@@ -125,7 +125,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 9,
-    icon: "fas fa-building",
+    icon: "flaticon-conflagration",
     title: "Todo Riesgo Daños Materiales",
     src: danosMateriales,
     href: "/servicios/danos-materiales",
@@ -136,7 +136,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 10,
-    icon: "fas fa-home",
+    icon: "flaticon-house",
     title: "Seguro de Hogar",
     src: hogar,
     href: "/servicios/hogar",
@@ -148,7 +148,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 11,
-    icon: "fas fa-car",
+    icon: "flaticon-car-insurance",
     title: "Seguro de Automóviles",
     src: automoviles,
     href: "/servicios/automoviles",
@@ -160,7 +160,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 12,
-    icon: "fas fa-industry",
+    icon: "flaticon-briefcase",
     title: "Seguro para Copropiedades y PYMES",
     src: copropiedades,
     href: "/servicios/copropiedades",
@@ -172,7 +172,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 13,
-    icon: "fas fa-truck-moving",
+    icon: "flaticon-ship",
     title: "Seguro de Transportes",
     src: transportes,
     href: "/servicios/transportes",
@@ -184,7 +184,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 14,
-    icon: "fas fa-user-secret",
+    icon: "flaticon-padlock",
     title: "Infidelidad y Riesgos Financieros",
     src: infidelidad,
     href: "/servicios/infidelidad",
@@ -196,7 +196,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 15,
-    icon: "fas fa-user",
+    icon: "flaticon-umbrella",
     title: "Responsabilidad Civil",
     src: rcEmpresarial,
     href: "/servicios/rc-empresarial",
@@ -208,7 +208,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 16,
-    icon: "fas fa-user-tie",
+    icon: "flaticon-user",
     title: "D&O – Directores y Administradores",
     src: doIcon,
     href: "/servicios/do",
@@ -220,7 +220,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 17,
-    icon: "fas fa-cogs",
+    icon: "flaticon-settings",
     title: "Equipos y Maquinaria",
     src: maquinaria,
     href: "/servicios/maquinaria",
@@ -231,7 +231,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 18,
-    icon: "fas fa-hammer",
+    icon: "flaticon-layers",
     title: "Todo Riesgo Construcción y Montaje",
     src: construccion,
     href: "/servicios/construccion",
@@ -243,7 +243,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 19,
-    icon: "fas fa-shield-alt",
+    icon: "flaticon-briefcase-1",
     title: "ARL Empresarial",
     src: arl,
     href: "/servicios/arl",
@@ -255,7 +255,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 20,
-    icon: "fas fa-house-damage",
+    icon: "flaticon-property-insurance",
     title: "Decenal Vivienda Segura",
     src: decenal,
     href: "/servicios/decenal",
@@ -267,7 +267,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 21,
-    icon: "fas fa-file-contract",
+    icon: "flaticon-report",
     title: "Cumplimiento Estatal",
     src: cumplimientoEstatal,
     href: "/servicios/cumplimiento-estatal",
@@ -278,7 +278,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 22,
-    icon: "fas fa-handshake",
+    icon: "flaticon-handshake",
     title: "Cumplimiento Particular",
     src: cumplimientoParticular,
     href: "/servicios/cumplimiento-particular",
@@ -289,7 +289,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 23,
-    icon: "fas fa-gavel",
+    icon: "flaticon-report-1",
     title: "RC Derivada del Cumplimiento",
     src: rcCumplimiento,
     href: "/servicios/rc-cumplimiento",
@@ -300,7 +300,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 24,
-    icon: "fas fa-key",
+    icon: "flaticon-house", // Reutilizado de Seguro de Hogar, podría buscarse uno más específico para arrendamiento si es necesario.
     title: "Arrendamiento",
     src: arrendamiento,
     href: "/servicios/arrendamiento",
@@ -312,7 +312,7 @@ export const REAL_SERVICES_LIST = [
   },
   {
     id: 25,
-    icon: "fas fa-balance-scale",
+    icon: "flaticon-folder", // Icono genérico, podría buscarse uno más específico para temas judiciales.
     title: "Judiciales",
     src: judiciales,
     href: "/servicios/judiciales",

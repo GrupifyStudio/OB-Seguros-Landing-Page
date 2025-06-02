@@ -24,10 +24,10 @@ export const BannerTwo = () => {
                  EXPERTOS EN PROTECCIÓN INTEGRAL
                 </span>
                 <h2 className="title" data-aos="fade-up" data-aos-delay="300">
-                La Forma Inteligente de Proteger tu Vida y Patrimonio
+                La Forma Inteligente de Proteger tu Vida y tu Patrimonio
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="500">
-                En Omaira Barbosa Asesores de Seguros Ltda convertimos tus necesidades en soluciones completas, brindando tranquilidad absoluta y confianza total.
+                En la Agencia Omaira Barbosa Asesores de Seguros Ltda., transformamos tus necesidades en soluciones integrales, ofreciéndote confianza y tranquilidad en cada paso.
                 </p>
                 <div className="banner-btn">
                   <Link

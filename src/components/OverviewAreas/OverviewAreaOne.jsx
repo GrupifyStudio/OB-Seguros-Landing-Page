@@ -35,10 +35,8 @@ export const OverviewAreaOne = () => {
                                 </h2>
               </div>
               <p className="info-one">
-              En Omaira Barbosa Asesores de Seguros Ltda contamos con más de 
-              15 años de experiencia asesorando a personas, familias y empresas. 
-              Trabajamos de la mano contigo para ofrecer soluciones de protección 
-              integral, respaldadas por las principales aseguradoras del país.
+                En la Agencia Omaira Barbosa Asesores de Seguros Ltda., contamos con más de 15 años de experiencia asesorando a Personas, Familias y Empresas. 
+                Trabajamos de la mano contigo para ofrecer soluciones de protección integral, respaldadas por las principales Aseguradoras del País
               </p>
             
               <p className="info-two">

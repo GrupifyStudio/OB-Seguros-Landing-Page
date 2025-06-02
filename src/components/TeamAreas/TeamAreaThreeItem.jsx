@@ -8,7 +8,7 @@ export const TeamAreaThreeItem = ({ member }) => {
   return (
     <div className="team-item-three">
       <div className="team-thumb-three">
-        <img src={member.src} alt="" />
+        <img src={member.image} alt="" />
 
         <div
           className="team-social-three"

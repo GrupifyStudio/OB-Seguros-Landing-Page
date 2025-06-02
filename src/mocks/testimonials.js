@@ -3,14 +3,14 @@ import { TESTI_AVATAR01, TESTI_AVATAR02 } from "../lib/assets";
 export const TESTIMONIAL_LIST_TWO = [
   {
     id: 1,
-    text: "Excelente asesoría, siempre atentos a nuestras necesidades y ofreciendo las mejores opciones para proteger nuestro negocio.\"",
+    text: "Destacamos la excelente asesoría, la atención personalizada y el compromiso constante por brindarnos las mejores soluciones para la protección de nuestro negocio.\"",
     // src: TESTI_AVATAR01,
     title: "Carlos Martínez",
-    designation: "Gerente de Operaciones, Constructora ABC",
+    designation: "Gerente",
   },
   {
     id: 2,
-    text: "Con Omaira Barbosa encontramos confianza y soluciones a la medida para proteger a nuestra familia y patrimonio.\"",
+    text: "Con la Agencia Omaira Barbosa, proteges lo que más valoras: tu familia y tu patrimonio, con confianza y soluciones hechas a tu medida.\"",
     // src: TESTI_AVATAR02,
     title: "Laura Gómez",
     designation: "Emprendedora",

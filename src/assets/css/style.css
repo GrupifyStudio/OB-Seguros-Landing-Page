@@ -206,7 +206,9 @@ p {
   font-weight: var(--tg-body-font-weight);
   line-height: var(--tg-body-line-height);
   color: var(--tg-paragraph-color);
+  /* Removed forced on text
   text-transform: var(--tg-text-transform);
+  */
   margin-bottom: 15px;
 }
 hr {
@@ -445,8 +447,12 @@ label {
 }
 .heder-top-wrap {
   background: var(--tg-secondary-color);
-  overflow: hidden;
+  overflow-y: clip;
+  overflow-x: visible;
   padding: 9px 0;
+}
+.heder-top-wrap::-webkit-scrollbar {
+  display: none;
 }
 .header-top-left .list-wrap {
   display: flex;
@@ -1814,7 +1820,7 @@ label {
   background: url("../img/bg/breadcrumb_bg.jpeg");
   background-size: cover;
   background-position: center;
-  padding: 120px 0 130px;
+  padding: 250px 0 150px;
   position: relative;
   z-index: 1;
 }

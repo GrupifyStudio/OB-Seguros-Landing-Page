@@ -53,13 +53,10 @@ export const AboutThree = () => {
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
                 <span className="sub-title">CONÓCENOS</span>
                 <h2 className="title tg-element-title">
-                Soluciones Innovadoras y Confiables para tu Protección Integral                </h2>
+                Soluciones Innovadoras y Confiables para tu Protección Integral</h2>
               </div>
               <p className="info-one">
-              En Omaira Barbosa Asesores de Seguros Ltda trabajamos con dedicación, compromiso y más de 15 años de experiencia, brindando soluciones integrales y adaptadas a las necesidades específicas de cada cliente, protegiendo así tu patrimonio, 
-              vida y futuro con máxima responsabilidad.
-              </p>
-
+                En la Agencia de Seguros Omaira Barbosa Asesores de Seguros Ltda., trabajamos con dedicación y compromiso. Ofrecemos soluciones integrales, personalizadas según las necesidades de cada cliente, protegiendo tu patrimonio, tu vida y tu futuro con la máxima responsabilidad.</p>
               <div className="about-list-two">
                 <ul className="list-wrap">
                   {list.map((item, idx) => (
@@ -70,7 +67,7 @@ export const AboutThree = () => {
                 </ul>
               </div>
               <p>
-              Te apoyamos en cada etapa, especialmente en reclamaciones y prevención de riesgos.
+              Te acompañamos en cada etapa, con especial énfasis en la gestión de reclamaciones y la prevención de riesgos.
               </p>
               <div className="about-author-info">
                 {/* <div className="thumb">

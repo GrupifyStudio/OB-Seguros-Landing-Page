@@ -8,7 +8,7 @@ import { BrandSix } from "../../components/Brand/BrandSix";
 
 const AboutPage = () => {
   return (
-    <Layout breadcrumb={"About"} title={"About us"}>
+    <Layout breadcrumb={"About"} title={"Nosotros"}>
       {/* about-area */}
       <AboutSeven />
 
@@ -17,10 +17,9 @@ const AboutPage = () => {
 
       {/* team-area */}
       <TeamAreaThree />
-
-      {/* testimonial-area  */}
+      {/*}
       <TestimonialAreaOne />
-
+      */}
       {/* brand-area */}
       <BrandSix />
     </Layout>

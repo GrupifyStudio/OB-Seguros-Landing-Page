@@ -5,12 +5,13 @@ import { ContactAreaMap } from "../../components/ContactAreas/ContactAreaMap";
 
 const ContactPage = () => {
   return (
-    <Layout breadcrumb={"Contact"} title={"Contact Us"}>
+    <Layout breadcrumb={"Contact"} title={"Contactanos"}>
       {/* contact-area */}
       <ContactAreaInner />
 
-      {/* map */}
+      {/* map
       <ContactAreaMap />
+      */}
     </Layout>
   );
 };
