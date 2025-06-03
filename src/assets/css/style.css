@@ -3814,7 +3814,9 @@ label {
   top: 0;
   width: 100%;
   height: 100%;
+  /* re enable to show overlay again
   background: var(--tg-primary-color);
+  */
   opacity: 0;
   transition: 0.3s linear;
 }

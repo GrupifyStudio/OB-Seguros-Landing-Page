@@ -21,9 +21,11 @@ export const ServiceOneItem = ({ service }) => {
             Ver Servicio
           </Link>
           */}
+          {/* the style .services-thumb::before should also be edited to re enable this fully
           <Link to={"#"} className="btn transparent-btn">
             Ver Servicio
           </Link>
+          */}
         </div>
 
         <ul className="list-wrap">

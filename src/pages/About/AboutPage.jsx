@@ -16,8 +16,10 @@ const AboutPage = () => {
       <FeatureFive />
 
       {/* team-area */}
+      {/*
       <TeamAreaThree />
-      {/*}
+      */}
+      {/*
       <TestimonialAreaOne />
       */}
       {/* brand-area */}

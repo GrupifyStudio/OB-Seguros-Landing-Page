@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04ff5abf.css",
-    "main.js": "/static/js/main.dbd49baa.js",
+    "main.css": "/static/css/main.572d38ef.css",
+    "main.js": "/static/js/main.7cb875b9.js",
     "static/media/h2_services_img01.jpg": "/static/media/h2_services_img01.14a8879f2c52bff2f2d4.jpg",
     "static/media/h2_services_img04.jpg": "/static/media/h2_services_img04.a112e00a63e47a44a77b.jpg",
     "static/media/logo.png": "/static/media/logo.2f57ada02a29401ff951.png",
@@ -122,11 +122,11 @@
     "static/media/plus_icon.svg": "/static/media/plus_icon.3c9eb8c0e686d2df7f34c07595e9923f.svg",
     "static/media/quote02.svg": "/static/media/quote02.27992849cfc6ad9cbaab327f9495d56a.svg",
     "static/media/quote.svg": "/static/media/quote.889fc26bf004312a468cbe66b71910bf.svg",
-    "main.04ff5abf.css.map": "/static/css/main.04ff5abf.css.map",
-    "main.dbd49baa.js.map": "/static/js/main.dbd49baa.js.map"
+    "main.572d38ef.css.map": "/static/css/main.572d38ef.css.map",
+    "main.7cb875b9.js.map": "/static/js/main.7cb875b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ff5abf.css",
-    "static/js/main.dbd49baa.js"
+    "static/css/main.572d38ef.css",
+    "static/js/main.7cb875b9.js"
   ]
 }
