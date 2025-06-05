@@ -141,7 +141,7 @@ export const FooterTwo = () => {
                         </li>
                         */}
                         <li>
-                          <a href="https://www.instagram.com/obseguros01/profilecard/?igsh=a2hoNHRyNTY5dmth">
+                          <a href="https://www.instagram.com/ob_seguros?igsh=MTN5b3dqem5nbHBvMw==">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
