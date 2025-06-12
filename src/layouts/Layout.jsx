@@ -14,9 +14,9 @@ import { HeaderSix } from "../components/Headers/HeaderSix";
 export const Layout = ({ children, header, footer, breadcrumb, title }) => {
   return (
     <>
-      {/* Scroll-top  */}
+      {/* Scroll-top  
       <ScrollToTopButton />
-
+      */}
       {/* header */}
       {header == 1 && <HeaderOne />}
       {header == 2 && <HeaderTwo />}

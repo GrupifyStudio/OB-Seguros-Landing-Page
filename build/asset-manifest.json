@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.84e6652f.css",
-    "main.js": "/static/js/main.6d120c9f.js",
+    "main.js": "/static/js/main.ce753271.js",
     "static/media/h2_services_img01.jpg": "/static/media/h2_services_img01.14a8879f2c52bff2f2d4.jpg",
+    "static/media/h2_banner_img.png": "/static/media/h2_banner_img.2ebd27deeb2293130286.png",
     "static/media/h2_services_img04.jpg": "/static/media/h2_services_img04.a112e00a63e47a44a77b.jpg",
     "static/media/logo.png": "/static/media/logo.2f57ada02a29401ff951.png",
     "static/media/h2_services_img03.jpg": "/static/media/h2_services_img03.508e1f5a91f672678bf3.jpg",
@@ -57,7 +58,6 @@
     "static/media/breadcrumb_bg.jpeg": "/static/media/breadcrumb_bg.3cc5dbbef264bac2e4a9.jpeg",
     "static/media/brand_img08.png": "/static/media/brand_img08.185bc57f1fc790bdbeac.png",
     "static/media/brand_img03.png": "/static/media/brand_img03.cf6eb6615426b0fd2efe.png",
-    "static/media/h2_banner_img.png": "/static/media/h2_banner_img.db2e60143e4086f69b3d.png",
     "static/media/person3.png": "/static/media/person3.c5d0606ce6984c2c7aa1.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/h2_footer_bg.jpg": "/static/media/h2_footer_bg.4550cda02fe43648ce87.jpg",
@@ -123,10 +123,10 @@
     "static/media/quote02.svg": "/static/media/quote02.27992849cfc6ad9cbaab327f9495d56a.svg",
     "static/media/quote.svg": "/static/media/quote.889fc26bf004312a468cbe66b71910bf.svg",
     "main.84e6652f.css.map": "/static/css/main.84e6652f.css.map",
-    "main.6d120c9f.js.map": "/static/js/main.6d120c9f.js.map"
+    "main.ce753271.js.map": "/static/js/main.ce753271.js.map"
   },
   "entrypoints": [
     "static/css/main.84e6652f.css",
-    "static/js/main.6d120c9f.js"
+    "static/js/main.ce753271.js"
   ]
 }

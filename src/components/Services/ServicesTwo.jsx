@@ -12,7 +12,7 @@ export const ServicesTwo = () => {
             <div className="section-title-two mb-60 tg-heading-subheading animation-style3">
               <span className="sub-title">LO QUE HACEMOS POR TI</span>
               <h2 className="title tg-element-title">
-              Ofrecemos Diferentes Servicios para Protegerte Mejor
+              Ofrecemos diferentes Servicios para Protegerte Mejor
                             </h2>
             </div>
           </div>

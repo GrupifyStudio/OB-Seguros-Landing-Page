@@ -19,7 +19,7 @@ export const ContactAreaInner = () => {
 
               {/* Company Info Block */}
               <div className="contact-info-item">
-                <h5 className="title-two">OMAIRA BARBOSA ASESORES DE SEGUROS LTDA</h5>
+                <h5 className="title-two">OMAIRA BARBOSA ASESORES DE SEGUROS Ltda</h5>
                 <ul className="list-wrap">
                   <li>NIT. 901.727.021–4</li>
                   <li>
@@ -50,6 +50,9 @@ export const ContactAreaInner = () => {
               <div className="contact-info-item">
                 <h5 className="title-two">Teléfonos</h5>
                 <ul className="list-wrap">
+                  <li>
+                    <a href="tel:+573118111643">+57 311 8111643</a>
+                  </li>
                   <li>
                     <a href="tel:+573143357610">+57 314 335 7610</a>
                   </li>

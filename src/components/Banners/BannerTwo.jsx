@@ -27,7 +27,7 @@ export const BannerTwo = () => {
                 La Forma Inteligente de Proteger tu Vida y tu Patrimonio
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="500">
-                En la Agencia Omaira Barbosa Asesores de Seguros Ltda., transformamos tus necesidades en soluciones integrales, ofreciéndote confianza y tranquilidad en cada paso.
+                En la Agencia Omaira Barbosa Asesores de Seguros Ltda transformamos tus necesidades en soluciones integrales, ofreciéndote confianza y tranquilidad en cada paso.
                 </p>
                 <div className="banner-btn">
                   <Link

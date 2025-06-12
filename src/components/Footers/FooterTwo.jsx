@@ -20,6 +20,14 @@ export const FooterTwo = () => {
                   <div className="footer-content">
                     <div className="footer-info">
                       <ul className="list-wrap">
+                      <li>
+                        <div className="icon">
+                          <i className="flaticon-phone-call"></i>
+                        </div>
+                        <div className="content">
+                          <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 8111643</a>
+                        </div>
+                      </li>
                         <li>
                           <div className="icon">
                             <i className="flaticon-phone-call"></i>

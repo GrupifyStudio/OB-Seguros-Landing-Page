@@ -56,7 +56,7 @@ export const AboutSeven = () => {
                 </h2>
               </div>
               <p>
-                En <bold>Omaira Barbosa Asesores de Seguros LTDA</bold> ofrecemos asesoría integral en seguros con más de 15 años de experiencia en el sector. Trabajamos con las principales aseguradoras del país para brindarte soluciones seguras, personalizadas y eficaces que protejan lo que más valoras: tu vida, tu familia, tu patrimonio y tu empresa.
+                En <bold>Omaira Barbosa Asesores de Seguros Ltda</bold> ofrecemos asesoría integral en seguros con más de 15 años de experiencia en el sector. Trabajamos con las principales aseguradoras del país para brindarte soluciones seguras, personalizadas y eficaces que protejan lo que más valoras: tu vida, tu familia, tu patrimonio y tu empresa.
               </p>
 
               <div className="success-wrap-two">

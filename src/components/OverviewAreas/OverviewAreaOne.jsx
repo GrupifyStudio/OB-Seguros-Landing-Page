@@ -29,13 +29,13 @@ export const OverviewAreaOne = () => {
           <div className="col-lg-6">
             <div className="overview-content">
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
-                <span className="sub-title">Quiene Somos</span>
+                <span className="sub-title">Quienes Somos</span>
                 <h2 className="title tg-element-title">
                 Diseñamos la mejor estrategia de protección para ti y tu empresa
                                 </h2>
               </div>
               <p className="info-one">
-                En la Agencia Omaira Barbosa Asesores de Seguros Ltda., contamos con más de 15 años de experiencia asesorando a Personas, Familias y Empresas. 
+                En la Agencia Omaira Barbosa Asesores de Seguros Ltda contamos con más de 15 años de experiencia asesorando a Personas, Familias y Empresas. 
                 Trabajamos de la mano contigo para ofrecer soluciones de protección integral, respaldadas por las principales Aseguradoras del País
               </p>
             
