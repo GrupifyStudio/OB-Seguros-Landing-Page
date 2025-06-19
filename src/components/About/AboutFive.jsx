@@ -17,7 +17,7 @@ export const AboutFive = () => {
               <img src={H4_ABOUT_IMG02} alt="" data-parallax='{"y" : 100 }' />
               <div className="experience-wrap">
                 <h2 className="title">
-                  25 <span>Years Of Experience</span>
+                  25 <span>Años de Experiencia</span>
                 </h2>
               </div>
             </div>

@@ -17,7 +17,7 @@ export const ServicesTwoItem = ({ service }) => {
           <i className={service.icon}></i>
         </div>
         <h2 className="title">
-          <Link to={service.href}>{service.title}</Link>
+          <Link to={service.href} style={{ cursor: 'default' }}>{service.title}</Link>
         </h2>
         {/*Add classes d-none d-lg-block to the p element to remove it*/}
         <p className="">{service.subtitle}</p>

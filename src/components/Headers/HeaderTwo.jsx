@@ -24,7 +24,7 @@ export const HeaderTwo = () => {
                 <div className="header-top-left">
                   <ul className="list-wrap">
                     <li>
-                      <i className="flaticon-location"></i>San Gil, Colombia
+                      <i className="flaticon-location"></i>Asesores Nacionales
                     </li>
                     <li>
                       <i className="flaticon-mail"></i>

@@ -19,7 +19,7 @@ export const SERVICES_TWO_LIST = [
     src: H2_SERVICES_IMG02,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-life-insurance", // Asegúrate de tener este ícono o uno similar
-    href: "/services-details",
+    href: "/#",
     title: "Seguros de Vida",
     subtitle: "🔒 Protección para ti y tus seres queridos.",
   },
@@ -28,7 +28,7 @@ export const SERVICES_TWO_LIST = [
     src: H2_SERVICES_IMG03,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-house", // Ícono sugerido para hogar
-    href: "/services-details",
+    href: "/#",
     title: "Seguros para Hogar",
     subtitle: "🏡 Cuidamos tu patrimonio y tranquilidad.",
   },
@@ -37,7 +37,7 @@ export const SERVICES_TWO_LIST = [
     src: H2_SERVICES_IMG01,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-car-insurance", // Ícono sugerido para vehículos
-    href: "/services-details",
+    href: "/#",
     title: "Seguros para Vehículos",
     subtitle: "🚗 Conduce seguro en todo momento.",
   },
@@ -46,7 +46,7 @@ export const SERVICES_TWO_LIST = [
     src: H2_SERVICES_IMG04,
     srcShape: SERVICES_ITEM_SHAPE,
     icon: "flaticon-piggy-bank", // Ícono sugerido para empresas
-    href: "/services-details",
+    href: "/#",
     title: "Seguros Empresariales",
     subtitle: "🏢 Protección integral para tu empresa.",
   },
@@ -57,7 +57,7 @@ export const SERVICES_THREE_LIST = [
     id: 1,
     src: H4_SERVICES_IMG01,
     icon: "flaticon-healthcare",
-    href: "/services-details",
+    href: "/#",
     title: "Health Insurance",
     subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
   },
@@ -65,7 +65,7 @@ export const SERVICES_THREE_LIST = [
     id: 2,
     src: H4_SERVICES_IMG02,
     icon: "flaticon-protection",
-    href: "/services-details",
+    href: "/#",
     title: "Vehicle Insurance",
     subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
   },
@@ -73,7 +73,7 @@ export const SERVICES_THREE_LIST = [
     id: 3,
     src: H4_SERVICES_IMG03,
     icon: "flaticon-ship",
-    href: "/services-details",
+    href: "/#",
     title: "Cargo Insurance",
     subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
   },
@@ -81,7 +81,7 @@ export const SERVICES_THREE_LIST = [
     id: 4,
     src: H4_SERVICES_IMG04,
     icon: "flaticon-house",
-    href: "/services-details",
+    href: "/#",
     title: "Fire Insurance",
     subtitle: "Morem ipsum dolor ametey consectre adipiscing.",
   },
@@ -91,7 +91,7 @@ export const SERVICES_FOUR_LIST = [
   {
     id: 1,
     icon: "flaticon-business-presentation",
-    href: "/services-details",
+    href: "/#",
     title: "Marketing Strategy",
     subtitle:
       "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
@@ -99,7 +99,7 @@ export const SERVICES_FOUR_LIST = [
   {
     id: 2,
     icon: "flaticon-rocket",
-    href: "/services-details",
+    href: "/#",
     title: "SEO Consultancy",
     subtitle:
       "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
@@ -107,7 +107,7 @@ export const SERVICES_FOUR_LIST = [
   {
     id: 3,
     icon: "flaticon-mission",
-    href: "/services-details",
+    href: "/#",
     title: "Target Audience",
     subtitle:
       "When An Unknown Printer Took Gerty Galley Types Awecr Erambled Type Specimen Book.",
@@ -117,7 +117,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 1,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: SERVICES_IMG01,
     title: "Seguro de Vida Individual",
     subtitle: "Protección a largo plazo para ti y tu familia. Acceso a coberturas flexibles. Apoyo económico en momentos difíciles.",
@@ -125,7 +125,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 2,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: SERVICES_IMG02,
     title: "Seguro de Vida Grupo",
     subtitle: "Ideal para empleados o colectivos. Tarifas preferenciales. Cobertura ante fallecimiento o invalidez.",
@@ -133,7 +133,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 3,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: SERVICES_IMG03,
     title: "Seguro de Educación",
     subtitle: "Asegura el futuro académico de tus hijos. Planificación financiera a largo plazo. Cobertura ante imprevistos.",
@@ -141,7 +141,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 4,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: SERVICES_IMG02,
     title: "Seguro de Salud",
     subtitle: "Amplia red médica y hospitalaria. Planes individuales y familiares. Cobertura nacional.",
@@ -149,7 +149,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 5,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguro de Accidentes",
     subtitle: "Asistencia médica inmediata. Indemnización por incapacidad o muerte accidental. Cobertura 24/7.",
@@ -157,7 +157,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 6,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguro de Pensión Voluntaria",
     subtitle: "Ahorro flexible para tu retiro. Beneficios tributarios. Opciones de renta vitalicia.",
@@ -165,7 +165,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 7,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguro de Rentas",
     subtitle: "Ingresos programados. Tranquilidad financiera mensual. Ideal para planificación familiar.",
@@ -173,7 +173,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 8,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "RC Médica",
     subtitle: "Protección ante demandas por negligencia. Cobertura a profesionales de la salud. Acompañamiento legal especializado.",
@@ -181,7 +181,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 9,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguros Empresariales, Patrimoniales e Ingeniería",
     subtitle: "Cobertura integral para empresas, patrimonios y proyectos de ingeniería.",
@@ -189,7 +189,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 10,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Todo Riesgo Daños Materiales",
     subtitle: "Cobertura ante incendios, terremotos, robos. Protección integral para instalaciones.",
@@ -197,7 +197,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 11,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguro de Hogar",
     subtitle: "Protección contra daños materiales y robos. Asistencia domiciliaria. Responsabilidad civil incluida.",
@@ -205,7 +205,7 @@ export const SERVICES_ONE_LIST = [
   {
     id: 12,
     icon: "flaticon-briefcase",
-    href: "/services-details",
+    href: "/#",
     src: "",
     title: "Seguro de Automóviles",
     subtitle: "Cobertura para autos particulares, pesados, motos y servicio público. Asistencia en carretera. Daños a terceros y pérdida total.",

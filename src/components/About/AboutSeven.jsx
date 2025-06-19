@@ -42,7 +42,7 @@ export const AboutSeven = () => {
                 data-aos-delay="0"
               >
                 <h2 className="title">25</h2>
-                <p>Years Of Experience</p>
+                <p>Años de Experiencia</p>
               </div>
             </div>
           </div>
