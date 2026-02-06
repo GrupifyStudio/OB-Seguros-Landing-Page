@@ -1,6 +1,5 @@
 import React from "react";
 import { FEATURE_ONE_LIST } from "../../mocks/features";
-import { FEATURES_SHAPE01, FEATURES_SHAPE02 } from "../../lib/assets";
 import myImage2 from '../../assets/img/about-placeholders/ball.png';
 
 export const FeatureFive = () => {

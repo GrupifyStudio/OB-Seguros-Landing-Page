@@ -30,7 +30,7 @@ export const useParticles = () => {
           y: Math.random() * 12,
         };
 
-        let anim = el.animate(
+        el.animate(
           [
             { transform: "translate(0, 0)" },
             { transform: `translate(${to.x}rem, ${to.y}rem)` },
@@ -77,7 +77,7 @@ export const useParticlesTestimonialFive = () => {
           y: Math.random() * 12,
         };
 
-        let anim = el.animate(
+        el.animate(
           [
             { transform: "translate(0, 0)" },
             { transform: `translate(${to.x}rem, ${to.y}rem)` },

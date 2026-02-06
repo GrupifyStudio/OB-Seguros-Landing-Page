@@ -2,7 +2,6 @@ import React from "react";
 import { HeaderSearch } from "./HeaderSearch";
 import { MobileMenu } from "./MobileMenu";
 import { NavMenus } from "./NavMenus";
-import { LOGO } from "../../lib/assets";
 import { useStickyMenu } from "../../lib/hooks/useStickyMenu";
 import { Link } from "react-router-dom";
 
@@ -38,11 +37,11 @@ export const HeaderOne = () => {
                 <div className="header-social">
                   <ul className="list-wrap">
                     <li>
-                    <a
-      href="https://www.facebook.com/people/OB-Seguros/100063504905303/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >                        <i className="fab fa-facebook-f"></i>
+                      <a
+                        href="https://www.facebook.com/people/OB-Seguros/100063504905303/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >                        <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
 
@@ -65,7 +64,7 @@ export const HeaderOne = () => {
                 <nav className="menu-nav">
                   <div className="logo">
                     <Link to="/">
-                    <img src="/LogoObSeguros.png" alt="Logo" />
+                      <img src="/LogoObSeguros.png" alt="Logo" />
                     </Link>
                   </div>
 
@@ -75,7 +74,7 @@ export const HeaderOne = () => {
                   <div className="header-action d-none d-md-block">
                     <ul className="list-wrap">
                       <li className="header-search">
-                        <a href="#">
+                        <a href="#!">
                           <i className="flaticon-search"></i>
                         </a>
                       </li>

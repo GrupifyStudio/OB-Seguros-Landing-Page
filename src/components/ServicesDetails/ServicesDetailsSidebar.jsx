@@ -23,7 +23,7 @@ export const ServicesDetailsSidebar = ({
         <div className="services-cat-list mb-30">
           <ul className="list-wrap">
             {services.map((item, idx) => (
-              <li key={item.label} className={cn({ active: idx == 0 })}>
+              <li key={item.label} className={cn({ active: idx === 0 })}>
                 <Link to={item.href}>
                   {item.label} <i className="flaticon-right-arrow"></i>
                 </Link>
@@ -37,7 +37,7 @@ export const ServicesDetailsSidebar = ({
           <div className="services-cat-list">
             <ul className="list-wrap">
               {services.map((item, idx) => (
-                <li key={item.label} className={cn({ active: idx == 0 })}>
+                <li key={item.label} className={cn({ active: idx === 0 })}>
                   <Link to={item.href}>
                     {item.label} <i className="flaticon-right-arrow"></i>
                   </Link>
@@ -56,6 +56,7 @@ export const ServicesDetailsSidebar = ({
           <a
             href={SERVICES_DETAILS01}
             target="_blank"
+            rel="noreferrer"
             download
             className="download-btn"
           >
@@ -64,6 +65,7 @@ export const ServicesDetailsSidebar = ({
           <a
             href={SERVICES_DETAILS01}
             target="_blank"
+            rel="noreferrer"
             download
             className="download-btn"
           >

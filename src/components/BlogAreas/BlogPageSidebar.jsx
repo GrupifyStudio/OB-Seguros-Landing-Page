@@ -23,7 +23,7 @@ export const BlogPageSidebar = () => {
           <ul className="list-wrap">
             {BLOG_CATEGORIES.map((cat, idx) => (
               <li key={idx}>
-                <a href="#">
+                <a href="#!">
                   {cat.label} <span>({cat.value})</span>
                 </a>
               </li>
@@ -66,7 +66,7 @@ export const BlogPageSidebar = () => {
           <ul className="list-wrap">
             {BLOG_TAGS.map((item) => (
               <li key={item}>
-                <a href="#">{item}</a>
+                <a href="#!">{item}</a>
               </li>
             ))}
           </ul>

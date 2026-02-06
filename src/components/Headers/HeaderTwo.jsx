@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Sidebar } from "./Sidebar";
 import { HeaderSearch } from "./HeaderSearch";
-import { LOGO } from "../../lib/assets";
 import { MobileMenu } from "./MobileMenu";
 import { NavMenus } from "./NavMenus";
 import { useStickyMenu } from "../../lib/hooks/useStickyMenu";
@@ -33,26 +32,26 @@ export const HeaderTwo = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5" style={{paddingRight:"0"}}>
+              <div className="col-lg-5" style={{ paddingRight: "0" }}>
                 <div className="header-top-right">
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
-                      <a
-      href="https://www.facebook.com/share/16d7TgrNMJ/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >                          <i className="fab fa-facebook-f"></i>
+                        <a
+                          href="https://www.facebook.com/share/16d7TgrNMJ/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
-                     
+
                       <li>
                         <a href="https://www.instagram.com/obseguros01/profilecard/?igsh=a2hoNHRyNTY5dmth">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                       
+
                       </li>
                     </ul>
                   </div>
@@ -67,7 +66,7 @@ export const HeaderTwo = () => {
           </div>
 
           <div className="menu-area">
-            <div className="row" style={{backgroundColor:"white"}}>
+            <div className="row" style={{ backgroundColor: "white" }}>
               <div className="col-12">
                 <div className="mobile-nav-toggler d-flex align-items-center d-lg-none">
                   <i className="fas fa-bars"></i>
@@ -76,11 +75,11 @@ export const HeaderTwo = () => {
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link to="/">
-                      <img 
-      src="/LogoObSeguros.png" 
-      alt="Logo de OB Seguros" 
-      className="logo-img"
-    />                      </Link>
+                        <img
+                          src="/LogoObSeguros.png"
+                          alt="Logo de OB Seguros"
+                          className="logo-img"
+                        />                      </Link>
                     </div>
 
                     {/* nav links */}
@@ -95,15 +94,15 @@ export const HeaderTwo = () => {
                           <div className="content">
                             <span>Contacto</span>
                             <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 811 1643</a>
-                            </div>
+                          </div>
                         </li>
                         {/* <li className="header-search">
-                          <a href="#">
+                          <a href="#!">
                             <i className="flaticon-search"></i>
                           </a>
                         </li>
                         <li className="offcanvas-menu">
-                          <a href="#" className="menu-tigger">
+                          <a href="#!" className="menu-tigger">
                             <span></span>
                             <span></span>
                             <span></span>

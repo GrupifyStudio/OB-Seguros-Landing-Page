@@ -13,7 +13,7 @@ export const SlickSlider = React.forwardRef((props, ref) => {
 });
 
 export const SlickSliderArrowPrev = (props) => {
-  const { className, style, onClick, classNameWrapper } = props;
+  const { onClick, classNameWrapper } = props;
   return (
     <div className={cn(classNameWrapper)}>
       <button
@@ -28,7 +28,7 @@ export const SlickSliderArrowPrev = (props) => {
 };
 
 export const SlickSliderArrowNext = (props) => {
-  const { className, style, onClick, classNameWrapper } = props;
+  const { onClick, classNameWrapper } = props;
   return (
     <div className={cn(classNameWrapper)}>
       <button

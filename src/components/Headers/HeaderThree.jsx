@@ -37,12 +37,12 @@ export const HeaderThree = () => {
                   <div className="header-action">
                     <ul className="list-wrap">
                       <li className="header-search">
-                        <a href="#">
+                        <a href="#!">
                           <i className="flaticon-search"></i>
                         </a>
                       </li>
                       <li className="offcanvas-menu offcanvas-menu-two">
-                        <a href="#" className="menu-tigger">
+                        <a href="#!" className="menu-tigger">
                           <span></span>
                           <span></span>
                           <span></span>

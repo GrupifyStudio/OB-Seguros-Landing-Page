@@ -21,7 +21,7 @@ export const BlogComments = () => {
                   Finanappreciate your trust greatly Our clients choose dentace
                   ducts because know we are the best area Awaitingare really.
                 </p>
-                <a href="#" className="reply-btn">
+                <a href="#!" className="reply-btn">
                   Reply
                 </a>
               </div>
@@ -42,7 +42,7 @@ export const BlogComments = () => {
                       dentace ducts because know we are the best area
                       Awaitingare really.
                     </p>
-                    <a href="#" className="reply-btn">
+                    <a href="#!" className="reply-btn">
                       Reply
                     </a>
                   </div>

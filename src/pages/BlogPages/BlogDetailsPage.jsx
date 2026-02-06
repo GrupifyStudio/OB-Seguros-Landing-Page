@@ -128,10 +128,10 @@ const BlogDetailsPage = () => {
                   <h5 className="title">Tags:</h5>
                   <ul className="list-wrap">
                     <li>
-                      <a href="#">Finance</a>
+                      <a href="#!">Finance</a>
                     </li>
                     <li>
-                      <a href="#">Marketing</a>
+                      <a href="#!">Marketing</a>
                     </li>
                   </ul>
                 </div>
@@ -143,22 +143,22 @@ const BlogDetailsPage = () => {
                   <h5 className="title">Share:</h5>
                   <ul className="list-wrap">
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-pinterest-p"></i>
                       </a>
                     </li>

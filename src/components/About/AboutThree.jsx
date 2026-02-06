@@ -1,20 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
-  ABOUT_AUTHOR,
   H2_ABOUT_IMG01,
   H2_ABOUT_IMG02,
-  H2_ABOUT_SHAPE01,
-  H2_ABOUT_SHAPE02,
-  H2_ABOUT_SHAPE03,
-  SIGNATURE,
 } from "../../lib/assets";
 
 export const AboutThree = () => {
   const list = [
-   "Experiencia Comprobada",
-   "Asesoría Personalizada",
-   "Alianzas Estratégicas",
-  " Acompañamiento Continuo"
+    "Experiencia Comprobada",
+    "Asesoría Personalizada",
+    "Alianzas Estratégicas",
+    " Acompañamiento Continuo"
   ];
 
   return (
@@ -53,7 +48,7 @@ export const AboutThree = () => {
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
                 <span className="sub-title">CONÓCENOS</span>
                 <h2 className="title tg-element-title">
-                Soluciones Innovadoras y Confiables para tu Protección Integral</h2>
+                  Soluciones Innovadoras y Confiables para tu Protección Integral</h2>
               </div>
               <p className="info-one">
                 En la Agencia de Seguros Omaira Barbosa Asesores de Seguros Ltda trabajamos con dedicación y compromiso. Ofrecemos soluciones integrales, personalizadas según las necesidades de cada cliente, protegiendo tu patrimonio, tu vida y tu futuro con la máxima responsabilidad.</p>
@@ -67,7 +62,7 @@ export const AboutThree = () => {
                 </ul>
               </div>
               <p>
-              Te acompañamos en cada etapa, con especial énfasis en la gestión de reclamaciones y la prevención de riesgos.
+                Te acompañamos en cada etapa, con especial énfasis en la gestión de reclamaciones y la prevención de riesgos.
               </p>
               <div className="about-author-info">
                 {/* <div className="thumb">

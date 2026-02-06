@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LOGO, W_LOGO } from "../../lib/assets";
 
 export const FooterOne = () => {
   return (
@@ -101,7 +100,7 @@ export const FooterOne = () => {
                 <div className="footer-widget">
                   <h4 className="fw-title">Nuestras Redes</h4>
                   <div className="footer-newsletter">
-                  {/* Change text up here to newsletter if you remove the comments
+                    {/* Change text up here to newsletter if you remove the comments
                     <p>
                       Sign up to Privitar’s weekly newsletter to get the latest
                       updates.
@@ -112,7 +111,7 @@ export const FooterOne = () => {
                     </form>
                   */}
                     <div className="footer-social footer-social-one">
-                      <ul className="list-wrap" style={{justifyContent:"flex-start"}}>
+                      <ul className="list-wrap" style={{ justifyContent: "flex-start" }}>
                         <li>
                           <a href="https://www.facebook.com/share/16d7TgrNMJ/">
                             <i className="fab fa-facebook-f"></i>
@@ -120,7 +119,7 @@ export const FooterOne = () => {
                         </li>
                         {/*
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
@@ -132,12 +131,12 @@ export const FooterOne = () => {
                         </li>
                         {/*
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-pinterest-p"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-youtube"></i>
                           </a>
                         </li>
@@ -190,7 +189,7 @@ export const FooterOne = () => {
                     </li>
                     {/*
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
@@ -202,12 +201,12 @@ export const FooterOne = () => {
                     </li>
                     {/*
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-pinterest-p"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#!">
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>

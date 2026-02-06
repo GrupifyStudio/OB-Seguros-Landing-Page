@@ -29,10 +29,10 @@ const TeamDetailsPage = () => {
                     </li>
                   </ul>
                   <div className="td-info-bottom">
-                    <a href="#" className="btn btn-three">
+                    <a href="#!" className="btn btn-three">
                       Contact With Me
                     </a>
-                    <a href="#" className="share-btn">
+                    <a href="#!" className="share-btn">
                       <img src={SHARE} alt="" />
                       Share
                     </a>

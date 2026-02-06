@@ -5,7 +5,7 @@ export const BlogAuthorInfo = () => {
   return (
     <div className="blog-avatar-wrap mb-65">
       <div className="blog-avatar-img">
-        <a href="#">
+        <a href="#!">
           <img src={AVATAR} alt="img" />
         </a>
       </div>
@@ -13,7 +13,7 @@ export const BlogAuthorInfo = () => {
       <div className="blog-avatar-info">
         <span className="designation">Author</span>
         <h4 className="name">
-          <a href="#">Parker Willy</a>
+          <a href="#!">Parker Willy</a>
         </h4>
 
         <p>

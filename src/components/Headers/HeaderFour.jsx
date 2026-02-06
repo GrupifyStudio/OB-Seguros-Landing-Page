@@ -38,22 +38,22 @@ export const HeaderFour = () => {
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-pinterest-p"></i>
                         </a>
                       </li>
@@ -90,12 +90,12 @@ export const HeaderFour = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-search">
-                          <a href="#">
+                          <a href="#!">
                             <i className="flaticon-search"></i>
                           </a>
                         </li>
                         <li className="offcanvas-menu offcanvas-menu-two">
-                          <a href="#" className="menu-tigger">
+                          <a href="#!" className="menu-tigger">
                             <span></span>
                             <span></span>
                             <span></span>

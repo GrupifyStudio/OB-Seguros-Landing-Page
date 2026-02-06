@@ -4,7 +4,6 @@ import { useStickyMenu } from "../../lib/hooks/useStickyMenu";
 import { LOGO } from "../../lib/assets";
 import { NavMenus } from "./NavMenus";
 import { Link } from "react-router-dom";
-import { HeaderSearch } from "./HeaderSearch";
 
 export const HeaderSix = () => {
   // menu sticky
@@ -41,22 +40,22 @@ export const HeaderSix = () => {
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="#!">
                           <i className="fab fa-pinterest-p"></i>
                         </a>
                       </li>
@@ -89,12 +88,12 @@ export const HeaderSix = () => {
                     <div className="header-action d-none d-md-block">
                       <ul className="list-wrap">
                         {/* <li className="header-search"> */}
-                          {/* <a href="#">
+                        {/* <a href="#!">
                             <i className="flaticon-search"></i>
                           </a> */}
                         {/* </li> */}
                         <li className="header-btn">
-                    
+
                         </li>
                       </ul>
                     </div>

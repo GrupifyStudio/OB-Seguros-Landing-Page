@@ -6,7 +6,6 @@ import {
   H2_BANNER_SHAPE03,
 } from "../../lib/assets";
 import { Link } from "react-router-dom";
-import { VideoPlayerOne } from "../VideoPlayers/VideoPlayerOne";
 
 export const BannerTwo = () => {
   return (
@@ -21,13 +20,13 @@ export const BannerTwo = () => {
                   data-aos="fade-up"
                   data-aos-delay="0"
                 >
-                 EXPERTOS EN PROTECCIÓN INTEGRAL
+                  EXPERTOS EN PROTECCIÓN INTEGRAL
                 </span>
                 <h2 className="title" data-aos="fade-up" data-aos-delay="300">
-                La forma inteligente de Proteger tu Vida y tu Patrimonio
+                  La forma inteligente de Proteger tu Vida y tu Patrimonio
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="500">
-                En la Agencia Omaira Barbosa Asesores de Seguros Ltda transformamos tus necesidades en soluciones integrales, ofreciéndote confianza y tranquilidad en cada paso.
+                  En la Agencia Omaira Barbosa Asesores de Seguros Ltda transformamos tus necesidades en soluciones integrales, ofreciéndote confianza y tranquilidad en cada paso.
                 </p>
                 <div className="banner-btn">
                   <Link

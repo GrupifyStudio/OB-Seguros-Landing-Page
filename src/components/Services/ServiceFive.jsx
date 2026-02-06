@@ -1,11 +1,9 @@
 import React from "react";
-import { SERVICES_ONE_LIST } from "../../mocks/services";
 import { ServiceOneItem } from "./ServiceOneItem";
 import { REAL_SERVICES_LIST } from "./REAL_SERVICES_LIST";
 
 export const ServiceFive = () => {
-  const list = REAL_SERVICES_LIST.slice(0, 24);
-  list.length = 25;
+  const list = REAL_SERVICES_LIST;
 
   return (
     <section className="services-area-five inner-services-bg">
@@ -14,7 +12,7 @@ export const ServiceFive = () => {
           <div className="col-xl-6 col-lg-8 col-md-10">
             <div className="section-title-two text-center mb-50">
               <h2 className="title">
-Explora las soluciones más importantes que ofrecemos
+                Explora las soluciones más importantes que ofrecemos
               </h2>
               <p> Protegemos tu vida, tu empresa y tu patrimonio con planes diseñados para ti.</p>
             </div>

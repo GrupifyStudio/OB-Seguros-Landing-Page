@@ -1,5 +1,3 @@
-import { TESTI_AVATAR01, TESTI_AVATAR02 } from "../lib/assets";
-
 export const TESTIMONIAL_LIST_TWO = [
   {
     id: 1,

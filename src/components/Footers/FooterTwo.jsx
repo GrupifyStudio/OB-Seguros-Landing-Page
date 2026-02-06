@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LOGO } from "../../lib/assets"; // Uncommented as requested
 
 export const FooterTwo = () => {
   return (
@@ -154,7 +153,7 @@ export const FooterTwo = () => {
                         </li>
                         {/*
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
@@ -166,12 +165,12 @@ export const FooterTwo = () => {
                         </li>
                         {/*
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-pinterest-p"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-youtube"></i>
                           </a>
                         </li>

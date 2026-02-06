@@ -48,47 +48,47 @@ export const Sidebar = () => {
         </div>
         <ul className="side-instagram list-wrap">
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta01.jpg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta02.jpg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta03.jpg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta04.jpg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta05.jpg" alt="" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#!">
               <img src="assets/img/images/sb_insta06.jpg" alt="" />
             </a>
           </li>
         </ul>
         <div className="social-icon-right mt-30">
-          <a href="#">
+          <a href="#!">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#">
+          <a href="#!">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="#!">
             <i className="fab fa-google-plus-g"></i>
           </a>
-          <a href="#">
+          <a href="#!">
             <i className="fab fa-instagram"></i>
           </a>
         </div>

@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Odometer } from "../Odometer/Odometer";
-import {
-  INNER_ABOUT_IMG01,
-  INNER_ABOUT_IMG02,
-  INNER_ABOUT_SHAPE01,
-} from "../../lib/assets";
 import myImage1 from '../../assets/img/about-placeholders/main-1.jpg';
 import myImage2 from '../../assets/img/about-placeholders/main-2.jpg';
 import myImage3 from '../../assets/img/about-placeholders/dots.png';
@@ -79,7 +74,7 @@ export const AboutSeven = () => {
                     </div>
                     <div className="content">
                       <h2 className="count">
-                        <Odometer end={225} /> 
+                        <Odometer end={225} />
                       </h2>
                       <p>Empresas</p>
                       <p>Protegidas</p>

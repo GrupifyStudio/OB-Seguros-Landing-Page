@@ -24,27 +24,27 @@ export const FooterThree = () => {
                     <div className="footer-social footer-social-three">
                       <ul className="list-wrap">
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-facebook-f"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-twitter"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-pinterest-p"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#!">
                             <i className="fab fa-youtube"></i>
                           </a>
                         </li>

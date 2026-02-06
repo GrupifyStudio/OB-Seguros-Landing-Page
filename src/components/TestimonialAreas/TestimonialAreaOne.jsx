@@ -1,5 +1,5 @@
 import React from "react";
-import { QUOTE, RATING, TESTIMONIAL_IMG } from "../../lib/assets";
+import { QUOTE, RATING } from "../../lib/assets";
 import {
   SlickSlider,
   SlickSliderArrowNext,
