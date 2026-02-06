@@ -61,9 +61,6 @@ export const ContactAreaInner = () => {
                   <li>
                     <a href="tel:+573209208399">+57 320 920 8399</a>
                   </li>
-                  <li>
-                    <a href="tel:+573118111643">+57 311 811 1643</a>
-                  </li>
                 </ul>
               </div>
 
