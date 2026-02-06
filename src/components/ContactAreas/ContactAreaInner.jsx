@@ -1,5 +1,5 @@
 import React from "react";
-import { CONTACT_IMG } from "../../lib/assets"; // Assuming CONTACT_IMG is still relevant
+import { CONTACT_IMG } from "../../lib/assets";
 
 export const ContactAreaInner = () => {
   return (
@@ -8,7 +8,6 @@ export const ContactAreaInner = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="inner-contact-img">
-              {/* Ensure this image is still appropriate or update/remove as needed */}
               <img src={CONTACT_IMG} alt="Omaira Barbosa Asesores de Seguros - Oficina Principal" />
             </div>
           </div>
@@ -64,6 +63,19 @@ export const ContactAreaInner = () => {
                   </li>
                   <li>
                     <a href="tel:+573118111643">+57 311 811 1643</a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Directions Block */}
+              <div className="contact-info-item">
+                <h5 className="title-two">Direcciones</h5>
+                <ul className="list-wrap">
+                  <li>
+                    <strong>San Gil:</strong> Carrera 10 # 11-57 CC San Gil Plaza local 306, San Gil, Santander.
+                  </li>
+                  <li>
+                    <strong>Bogotá:</strong> Carrera 15 # 103-37 Piso 3, Bogotá, Colombia.
                   </li>
                 </ul>
               </div>
