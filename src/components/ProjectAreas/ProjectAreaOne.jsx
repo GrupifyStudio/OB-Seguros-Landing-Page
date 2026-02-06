@@ -50,7 +50,7 @@ export const ProjectAreaOne = () => {
     },
   };
 
-  const { sliderRef, toNext, toPrev } = useSwiperArrows();
+  const { sliderRef } = useSwiperArrows();
 
   return (
     <section className="project-area project-bg">

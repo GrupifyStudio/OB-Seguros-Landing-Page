@@ -1,8 +1,6 @@
 import React from "react";
 import {
   OVERVIEW_IMG01,
-  OVERVIEW_IMG02,
-  OVERVIEW_IMG_SHAPE,
 } from "../../lib/assets";
 import { Odometer } from "../Odometer/Odometer";
 
@@ -31,16 +29,16 @@ export const OverviewAreaOne = () => {
               <div className="section-title-two mb-20 tg-heading-subheading animation-style3">
                 <span className="sub-title">Quienes Somos</span>
                 <h2 className="title tg-element-title">
-                Diseñamos la mejor estrategia de protección para ti y tu empresa
-                                </h2>
+                  Diseñamos la mejor estrategia de protección para ti y tu empresa
+                </h2>
               </div>
               <p className="info-one">
-                En la Agencia Omaira Barbosa Asesores de Seguros Ltda contamos con más de 15 años de experiencia asesorando a Personas, Familias y Empresas. 
+                En la Agencia Omaira Barbosa Asesores de Seguros Ltda contamos con más de 15 años de experiencia asesorando a Personas, Familias y Empresas.
                 Trabajamos de la mano contigo para ofrecer soluciones de protección integral, respaldadas por las principales Aseguradoras del País
               </p>
-            
+
               <p className="info-two">
-               
+
               </p>
               <div className="content-bottom">
                 <ul className="list-wrap">

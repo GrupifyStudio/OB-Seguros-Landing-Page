@@ -137,48 +137,47 @@ export const ParallaxScroll = {
             if (noSmooth) currentTime = totalTime;
             $el.data("current-time", currentTime);
           }
-          this._properties.map(
-            $.proxy(function (prop) {
-              var defaultProp = 0;
-              var to = data[prop];
-              if (to === undefined) return;
-              if (
-                prop === "scale" ||
-                prop === "scaleX" ||
-                prop === "scaleY" ||
-                prop === "scaleZ"
-              ) {
-                defaultProp = 1;
-              } else {
-                to = to | 0;
+          for (let iProp = 0; iProp < this._properties.length; iProp++) {
+            var prop = this._properties[iProp];
+            var defaultProp = 0;
+            var to = data[prop];
+            if (to === undefined) continue;
+            if (
+              prop === "scale" ||
+              prop === "scaleX" ||
+              prop === "scaleY" ||
+              prop === "scaleZ"
+            ) {
+              defaultProp = 1;
+            } else {
+              to = to | 0;
+            }
+            var prev = $el.data("_" + prop);
+            if (prev === undefined) prev = defaultProp;
+            var next =
+              (to - defaultProp) *
+                ((scrollCurrent - scrollFrom) / (scrollTo - scrollFrom)) +
+              defaultProp;
+            var val = prev + (next - prev) / smoothness;
+            if (easing && currentTime > 0 && currentTime <= totalTime) {
+              var from = defaultProp;
+              if ($el.data("sens") === "back") {
+                from = to;
+                to = -to;
+                easing = easingReturn;
+                totalTime = totalTimeReturn;
               }
-              var prev = $el.data("_" + prop);
-              if (prev === undefined) prev = defaultProp;
-              var next =
-                (to - defaultProp) *
-                  ((scrollCurrent - scrollFrom) / (scrollTo - scrollFrom)) +
-                defaultProp;
-              var val = prev + (next - prev) / smoothness;
-              if (easing && currentTime > 0 && currentTime <= totalTime) {
-                var from = defaultProp;
-                if ($el.data("sens") === "back") {
-                  from = to;
-                  to = -to;
-                  easing = easingReturn;
-                  totalTime = totalTimeReturn;
-                }
-                val = $.easing[easing](null, currentTime, from, to, totalTime);
-              }
-              val = Math.ceil(val * this.round) / this.round;
-              if (val === prev && next === to) val = to;
-              if (!properties[prop]) properties[prop] = 0;
-              properties[prop] += val;
-              if (prev !== properties[prop]) {
-                $el.data("_" + prop, properties[prop]);
-                applyProperties = true;
-              }
-            }, this)
-          );
+              val = $.easing[easing](null, currentTime, from, to, totalTime);
+            }
+            val = Math.ceil(val * this.round) / this.round;
+            if (val === prev && next === to) val = to;
+            if (!properties[prop]) properties[prop] = 0;
+            properties[prop] += val;
+            if (prev !== properties[prop]) {
+              $el.data("_" + prop, properties[prop]);
+              applyProperties = true;
+            }
+          }
         }
         if (applyProperties) {
           if (properties["z"] !== undefined) {

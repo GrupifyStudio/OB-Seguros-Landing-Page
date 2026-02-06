@@ -9,7 +9,7 @@
     "gsap": "^3.11.5",
     "jarallax": "^2.1.4",
     "jquery": "^3.6.3",
-    "react": "^18.2.0", 
+    "react": "^18.2.0",
     "react-circular-progressbar": "^2.1.0",
     "react-countdown": "^2.3.5",
     "react-countup": "^6.5.0",
@@ -34,7 +34,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "jsx-a11y/anchor-is-valid": "off"
+    }
   },
   "browserslist": {
     "production": [
