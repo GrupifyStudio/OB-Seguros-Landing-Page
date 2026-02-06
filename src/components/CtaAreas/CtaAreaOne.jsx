@@ -6,7 +6,7 @@ export const CtaAreaOne = () => {
       <div className="container my-4">
         <div className="cta-inner-wrap">
           <div className="row align-items-center">
-            <div className="col-lg-9">
+            <div className="col-lg-7">
               <div className="cta-content">
                 <div className="cta-info-wrap">
                   <div className="icon">
@@ -18,31 +18,28 @@ export const CtaAreaOne = () => {
                   </div>
                 </div>
                 <h2 className="title">
-                  Agenda una consulta gratuita con nuestro equipo de expertos.                </h2>
+                  Agenda hoy mismo una consulta gratuita con nuestro equipo de expertos.
+                </h2>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="cta-btn text-end">
-                <div className="cta-btn text-end">
-                  <a
-                    href="https://wa.me/573118111643"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn"
-                  >
-                    CONTÁCTANOS
-                  </a>
-                  <a
-                    href="/Brochure Agencia Omaira Barbosa, Asesores de Seguros.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-two ml-10"
-                    style={{ marginLeft: "10px" }}
-                  >
-                    DESCARGAR BROCHURE
-                  </a>
-                </div>
-
+            <div className="col-lg-5">
+              <div className="cta-btn text-end d-flex flex-column flex-sm-row justify-content-lg-end align-items-center gap-3">
+                <a
+                  href="https://wa.me/573118111643"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn"
+                >
+                  CONTÁCTANOS
+                </a>
+                <a
+                  href="/Brochure Agencia Omaira Barbosa, Asesores de Seguros.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-two"
+                >
+                  DESCARGAR BROCHURE
+                </a>
               </div>
             </div>
           </div>
