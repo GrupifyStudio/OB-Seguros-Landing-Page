@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { isBusinessOpen } from "../../lib/utils/businessHours";
 
 export const FooterTwo = () => {
+  const isOpen = isBusinessOpen();
+
   return (
     <footer>
       <div className="footer-area-two footer-bg-two">
@@ -58,6 +61,9 @@ export const FooterTwo = () => {
                           <div className="content">
                             <p>
                               Lunes – Viernes: 7:30 am – 6:00 pm, <br />
+                              <span style={{ color: isOpen ? "#28a745" : "#dc3545", fontWeight: "bold" }}>
+                                {isOpen ? "ABIERTO" : "CERRADO"}
+                              </span>
                             </p>
                           </div>
                         </li>

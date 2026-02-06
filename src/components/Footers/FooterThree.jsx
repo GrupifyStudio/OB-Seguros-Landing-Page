@@ -1,8 +1,11 @@
 import React from "react";
 import { W_LOGO } from "../../lib/assets";
 import { Link } from "react-router-dom";
+import { isBusinessOpen } from "../../lib/utils/businessHours";
 
 export const FooterThree = () => {
+  const isOpen = isBusinessOpen();
+
   return (
     <footer>
       <div className="footer-area-three">
@@ -128,8 +131,10 @@ export const FooterThree = () => {
                         </div>
                         <div className="content">
                           <p>
-                            Mon – Sat: 8 am – 5 pm, <br /> Sunday:{" "}
-                            <span>CLOSED</span>
+                            Lunes – Viernes: 7:30 am – 6:00 pm, <br />
+                            <span style={{ color: isOpen ? "#28a745" : "#dc3545", fontWeight: "bold" }}>
+                              {isOpen ? "ABIERTO" : "CERRADO"}
+                            </span>
                           </p>
                         </div>
                       </li>
