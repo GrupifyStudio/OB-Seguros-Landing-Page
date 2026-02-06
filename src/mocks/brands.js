@@ -8,7 +8,8 @@ import {
   BRAND_IMG07,
   BRAND_IMG08,
   BRAND_IMG09,
-  BRAND_IMG10
+  BRAND_IMG10,
+  BRAND_IMG11
 
 
 } from "../lib/assets";
@@ -23,5 +24,6 @@ export const BRAND_LIST = [
   { id: 7, src: BRAND_IMG07 },
   { id: 8, src: BRAND_IMG08 },  { id: 9, src: BRAND_IMG09 }, 
    { id: 10, src: BRAND_IMG10 },
+   { id: 11, src: BRAND_IMG11 },
   
 ];

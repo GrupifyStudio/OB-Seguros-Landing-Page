@@ -78,6 +78,7 @@ import brand_img07 from "../assets/img/brand/brand_img07.png";
 import brand_img08 from "../assets/img/brand/brand_img08.png";
 import brand_img09 from "../assets/img/brand/brand_img09.png";
 import brand_img10 from "../assets/img/brand/brand_img10.png";
+import brand_img11 from "../assets/img/brand/pan_american_life.jpg";
 
 import services_item_shape from "../assets/img/services/services_item_shape.png";
 import h2_services_img01 from "../assets/img/services/h2_services_img01.jpg";
@@ -340,6 +341,7 @@ export const BRAND_IMG07 = brand_img07;
 export const BRAND_IMG08 = brand_img08;
 export const BRAND_IMG09 = brand_img09;
 export const BRAND_IMG10 = brand_img10;
+export const BRAND_IMG11 = brand_img11;
 
 // services
 export const SERVICES_ITEM_SHAPE = services_item_shape;

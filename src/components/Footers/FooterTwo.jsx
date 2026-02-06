@@ -20,14 +20,14 @@ export const FooterTwo = () => {
                   <div className="footer-content">
                     <div className="footer-info">
                       <ul className="list-wrap">
-                      <li>
-                        <div className="icon">
-                          <i className="flaticon-phone-call"></i>
-                        </div>
-                        <div className="content">
-                          <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 8111643</a>
-                        </div>
-                      </li>
+                        <li>
+                          <div className="icon">
+                            <i className="flaticon-phone-call"></i>
+                          </div>
+                          <div className="content">
+                            <a href="https://wa.me/573118111643" target="_blank" rel="noopener noreferrer">+57 311 8111643</a>
+                          </div>
+                        </li>
                         <li>
                           <div className="icon">
                             <i className="flaticon-phone-call"></i>
@@ -59,6 +59,17 @@ export const FooterTwo = () => {
                           <div className="content">
                             <p>
                               Lunes – Viernes: 7:30 am – 6:00 pm, <br />
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <i className="flaticon-pin"></i>
+                          </div>
+                          <div className="content">
+                            <p>
+                              Cra 9 # 11 - 31 OF 201 - Edificio Antares , San Gil - Santander<br />
+                              Calle 60 # 9 - 34 - Edificio Urban 9/60 , Bogotá D.C
                             </p>
                           </div>
                         </li>
@@ -124,7 +135,7 @@ export const FooterTwo = () => {
                 <div className="footer-widget">
                   <h4 className="fw-title">Nuestras Redes</h4>
                   <div className="footer-newsletter">
-                  {/* Change text up here to newsletter if you remove the comments
+                    {/* Change text up here to newsletter if you remove the comments
                     <p>
                       Sign up to Privitar’s weekly newsletter to get the latest
                       updates.
