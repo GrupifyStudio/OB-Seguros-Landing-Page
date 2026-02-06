@@ -14,14 +14,15 @@ export const FooterOne = () => {
                   <div className="footer-info">
                     <ul className="list-wrap">
                       <li>
-                        {/*
                         <div className="icon">
                           <i className="flaticon-pin"></i>
                         </div>
                         <div className="content">
-                          <p>58 Street Commercial Road Fratton, Australia</p>
+                          <p>
+                            San Gil: Carrera 10 # 11-57 CC San Gil Plaza local 306, San Gil, Santander.<br />
+                            Bogotá: Carrera 15 # 103-37 Piso 3, Bogotá, Colombia.
+                          </p>
                         </div>
-                        */}
                       </li>
                       <li>
                         <div className="icon">

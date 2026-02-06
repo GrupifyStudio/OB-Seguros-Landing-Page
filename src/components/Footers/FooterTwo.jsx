@@ -67,8 +67,8 @@ export const FooterTwo = () => {
                           </div>
                           <div className="content">
                             <p>
-                              Cra 9 # 11 - 31 OF 201 - Edificio Antares , San Gil - Santander<br />
-                              Calle 60 # 9 - 34 - Edificio Urban 9/60 , Bogotá D.C
+                              San Gil: Carrera 10 # 11-57 CC San Gil Plaza local 306, San Gil, Santander.<br />
+                              Bogotá: Carrera 15 # 103-37 Piso 3, Bogotá, Colombia.
                             </p>
                           </div>
                         </li>
