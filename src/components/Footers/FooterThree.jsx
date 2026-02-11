@@ -114,7 +114,10 @@ export const FooterThree = () => {
                           <i className="flaticon-pin"></i>
                         </div>
                         <div className="content">
-                          <p>58 Street Commercial Road Fratton, Australia</p>
+                          <p>
+                            San Gil: Cra 9 No. 11 - 31 Of 201 / Cll 12 No. 12 - 123 Of 177, San Gil - Santander<br />
+                            Bogotá: Cll 60 No. 9 - 34 Chapinero, Bogotá D.C
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -122,7 +125,7 @@ export const FooterThree = () => {
                           <i className="flaticon-phone-call"></i>
                         </div>
                         <div className="content">
-                          <a href="tel:0123456789">+123 888 9999</a>
+                          <a href="tel:+573118111643">+57 311 811 1643</a>
                         </div>
                       </li>
                       <li>

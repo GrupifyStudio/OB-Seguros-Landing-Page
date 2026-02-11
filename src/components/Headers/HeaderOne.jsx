@@ -30,8 +30,8 @@ export const HeaderOne = () => {
             <div className="col-lg-5">
               <div className="header-top-right">
                 <div className="header-contact">
-                  <a href="tel:0123456789">
-                    <i className="flaticon-phone-call"></i>+123 8989 444
+                  <a href="tel:+573118111643">
+                    <i className="flaticon-phone-call"></i>+57 311 811 1643
                   </a>
                 </div>
                 <div className="header-social">

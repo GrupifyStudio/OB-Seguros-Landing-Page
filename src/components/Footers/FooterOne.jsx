@@ -22,8 +22,8 @@ export const FooterOne = () => {
                         </div>
                         <div className="content">
                           <p>
-                            San Gil: Carrera 10 # 11-57 CC San Gil Plaza local 306, San Gil, Santander.<br />
-                            Bogotá: Carrera 15 # 103-37 Piso 3, Bogotá, Colombia.
+                            San Gil: Cra 9 No. 11 - 31 Of 201 / Cll 12 No. 12 - 123 Of 177, San Gil - Santander<br />
+                            Bogotá: Cll 60 No. 9 - 34 Chapinero, Bogotá D.C
                           </p>
                         </div>
                       </li>

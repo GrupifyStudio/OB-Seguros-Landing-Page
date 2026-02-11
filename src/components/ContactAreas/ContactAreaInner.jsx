@@ -69,10 +69,10 @@ export const ContactAreaInner = () => {
                 <h5 className="title-two">Direcciones</h5>
                 <ul className="list-wrap">
                   <li>
-                    <strong>San Gil:</strong> Carrera 10 # 11-57 CC San Gil Plaza local 306, San Gil, Santander.
+                    <strong>San Gil:</strong> Cra 9 No. 11 - 31 Of 201 / Cll 12 No. 12 - 123 Of 177, San Gil - Santander
                   </li>
                   <li>
-                    <strong>Bogotá:</strong> Carrera 15 # 103-37 Piso 3, Bogotá, Colombia.
+                    <strong>Bogotá:</strong> Cll 60 No. 9 - 34 Chapinero, Bogotá D.C
                   </li>
                 </ul>
               </div>
